@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar/NavBar.js';
 
 const profile = {
   name: "Jessie",
@@ -11,6 +12,9 @@ const profile = {
 function App() {
   return (
     <>
+        <header>
+          <NavBar />
+        </header>
         <h1>{profile.name}</h1>
         <img
         src={profile.imageUrl}

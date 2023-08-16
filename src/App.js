@@ -10,6 +10,7 @@ const profile = {
 
 
 function App() {
+  console.log("app");
   return (
     <>
         <header>

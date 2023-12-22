@@ -1,60 +1,52 @@
 import { Card } from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
 
 function Projects(){
+    console.log("???");
 
-    const projectsList = [
+    const projects = [
         {
             id:"1",
             picture: '',
             name: "Buy it for life",
             description: "A Full Stack web applcation",
-            tag: ["HTML", "CSS", "Bootstrap", "React.js", "Node.js","Express.js", "MongoDB" ]
-        },
-        {
-            id:"2",
-            picture: '',
-            name: "ID Photo Generator",
-            description: "An website that for user to generate a qualified ID photo. I am responsible for the Frontend design and make it responsible for different viewports",
-            tag: ["HTML", "CSS", "Bootstrap" ]
-        },
-        {
-            id:"3",
-            picture: '',
-            name: "Unknown",
-            description: "unknown",
-            tag: ["HTML", "CSS", "Bootstrap", "React.js", "Node.js","Express.js", "MongoDB"]
+            tags: ["HTML", "CSS", "Bootstrap", "React.js", "Node.js","Express.js", "MongoDB" ]
         },
         {
             id:"4",
             picture: '',
             name: "To-do List",
             description: "Unknown",
-            tag: ["HTML", "CSS", "Node.js"]
+            tags: ["HTML", "CSS", "Node.js"]
+        },
+        {
+            id:"3",
+            picture: '',
+            name: "appetAIzing",
+            description: "unknown",
+            tags: ["HTML", "CSS", "Bootstrap", "React.js", "Node.js","Express.js", "MongoDB"]
         },
         {
             id:"5",
             picture: '',
             name: "University of Illinois VR Lab Game",
             description: "Unknown",
-            tag: ["C#", "Unity", "User Experience", "User Interface"]
-        },
-        {
-            id:"6",
-            picture: '',
-            name: "InstaFood",
-            description: "A full-stack website merging Instagram's friend-following features with Yelp's restaurant search capabilities",
-            tag: ["HTML", "CSS", "Bootstrap", "React.js", "Node.js","Express.js", "MongoDB"]
+            tags: ["C#", "Unity", "User Experience", "User Interface"]
         }
-
     ]
 
     return (
-    <>
-    <div id="project-cards">
-
-    </div>
-    </>
+        <Container>
+            <Row>
+                <Col class="col-md-6">P1</Col>
+                <Col class="col-md-6">P2</Col>
+            </Row>
+            <Row>
+                <Col class="col-md-6">P3</Col>
+                <Col class="col-md-6">P4</Col>
+            </Row>
+        </Container>
     )
-}
+};
 
 export default Projects;

@@ -3,6 +3,7 @@ import './Root.css';
 import NavBar from './components/NavBar/NavBar.js';
 import { Outlet, Link } from 'react-router-dom';
 import SelfIntroduction from './components/SelfIntroduction/SelfIntroduction';
+import Projects from './components/Projects/Projects.js';
 
 
 
@@ -15,9 +16,12 @@ function Root() {
         <section id="self-introduction">
           <SelfIntroduction />
         </section>
-        <div id="content-portion">
-          <Outlet />
-        </div>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="littleGame">
+
+        </section>
 
     </>
 );

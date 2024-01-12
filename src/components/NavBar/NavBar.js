@@ -3,10 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
+import './NavBarStyles.css'
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary navBar">
       <Container>
         <Navbar.Brand><Link to={"/"}>Jessie</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

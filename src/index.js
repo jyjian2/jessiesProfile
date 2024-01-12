@@ -12,6 +12,7 @@ import SelfIntroduction from './components/SelfIntroduction/SelfIntroduction';
 import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
 import Contacts from './components/Contacts/Contacts';
+import goldenGame from './components/goldenGame/goldenGame';
 
 const router = createBrowserRouter([
   {

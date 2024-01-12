@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #ecf2f9;
+}
+
+#self-introduction {
+  background-color: #c8d9eb;
+}
+
+#projects {
+  background-color: #f0d9da;
+  
+}
+
+#goldenGame {
+  background-color:  #f9ecec;
+}
+
+#footer {
+  background-color:  #f9ecec;
+}
+
+.topViewPort {
+  min-height: 75vh;
+}
+
+.middleViewPort {
+  min-height: 75vh;
+}
+
+.buttonViewPort {
+  min-height: 75vh;
+}

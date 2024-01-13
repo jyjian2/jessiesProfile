@@ -1,7 +1,7 @@
 import { Card } from "react-bootstrap";
 import {Container, Row, Col} from "react-bootstrap";
 
-function Projects(){
+function Projects() {
     console.log("???");
 
     const projects = [

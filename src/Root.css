@@ -42,35 +42,38 @@ body {
   flex-direction: column;
 }
 
-.header {
-  background-color: #ecf2f9;
-}
-
 #self-introduction {
   background-color: #c8d9eb;
+  display: inline-block;
+  height: 700px;
 }
 
 #projects {
   background-color: #f0d9da;
-  
+  height: 700px
 }
 
 #goldenGame {
   background-color:  #f9ecec;
+  height: 500px
 }
 
 #footer {
-  background-color:  #f9ecec;
+  background-color:  #FEC47F;
+  height: 200px;
 }
 
 .topViewPort {
   min-height: 75vh;
+  display: block;
 }
 
 .middleViewPort {
   min-height: 75vh;
+  display: block;
 }
 
 .buttonViewPort {
   min-height: 75vh;
+  display: block;
 }

@@ -7,15 +7,15 @@ import './NavBarStyles.css'
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary navBar">
+    <Navbar expand="lg" className="navBar">
       <Container>
-        <Navbar.Brand><Link to={"/"}>Jessie</Link></Navbar.Brand>
+        <Navbar.Brand><Link to={"/"} className='navText'>Jessie</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link><Link to={"/projects"}>Projects</Link></Nav.Link>
-            <Nav.Link><Link to={"/resume"}>Resume</Link></Nav.Link>
-            <Nav.Link><Link to={"/contacts"}>Contact</Link></Nav.Link>
+            <Nav.Link><Link to={"/projects"} className='navText'>Projects</Link></Nav.Link>
+            <Nav.Link><Link to={"/resume"} className='navText'>Resume</Link></Nav.Link>
+            <Nav.Link><Link to={"/contacts"} className='navText'>Contact</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

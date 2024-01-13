@@ -13,9 +13,9 @@ function Root() {
   return (
     <>
       <div className="topViewPort">
-        <header>
-          <NavBar />
-        </header>
+
+        <NavBar />
+
         <section id="self-introduction">
           <SelfIntroduction />
         </section>

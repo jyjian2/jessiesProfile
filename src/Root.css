@@ -45,35 +45,32 @@ body {
 #self-introduction {
   background-color: #c8d9eb;
   display: inline-block;
-  height: 700px;
+  height: 60vh;
 }
 
 #projects {
   background-color: #f0d9da;
-  height: 700px
+  height: 60vh;
 }
 
 #goldenGame {
   background-color:  #f9ecec;
-  height: 500px
+  height: 60vh;
 }
 
 #footer {
   background-color:  #FEC47F;
-  height: 200px;
+  height: 15vh;
 }
 
 .topViewPort {
-  min-height: 75vh;
   display: block;
 }
 
 .middleViewPort {
-  min-height: 75vh;
   display: block;
 }
 
 .buttonViewPort {
-  min-height: 75vh;
   display: block;
 }

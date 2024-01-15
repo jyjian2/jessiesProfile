@@ -1,8 +1,11 @@
+import { motion } from "framer-motion";
+
 function goldenGame () {
     return (
-        <div>
-            TEST
-        </div>
+        <>
+        
+        
+        </>
     )
 
 }

@@ -6,13 +6,15 @@ import { useState } from "react";
 function GoldenGame() {
 
     const [tennisPosition, setTennisPosition] = useState([0, 0])
+    const [animatValue, setAnimateValue] = useState([0, "50vh"])
+    const [rotateValue, setRotateValue] = useState(360)
 
     return (
         <>
             <div className='tennisWrap'>
                 <motion.img
-                    initial={{ y: tennisPosition }}
-                    animate={{ y: "60vh", rotate: 360}}
+                    initial={{ y: tennisPosition[1] }}
+                    animate={{ y: animatValue[1], rotate: rotateValue}}
                     transition={{
                         type: "smooth",
                         duration: 4,

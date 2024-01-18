@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -54,12 +55,14 @@ body {
 }
 
 #goldenGame {
-  background-color:  #f9ecec;
+  background-color: #f9ecec;
   height: 60vh;
+  display: flex;
+  align-items: flex-end;
 }
 
 #footer {
-  background-color:  #FEC47F;
+  background-color: #FEC47F;
   height: 15vh;
 }
 

@@ -1,35 +1,39 @@
 import { motion } from "framer-motion";
 import tennisBall from "/Users/keziah/Developer/jessies_profile/src/assets/tennisBall.png";
 import './goldenGameStyles.css';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-function GoldenGame() {
+const GoldenGame = () => {
+    const [isBouncing, setBouncing] = useState(true);
 
-    const [tennisPosition, setTennisPosition] = useState([0, "100%"])
-    const [animatValue, setAnimateValue] = useState([0, "50vh"])
-    const [rotateValue, setRotateValue] = useState(360)
+    const ballVariants = {
+        initial: { y: 100 },
+        bounce: { y: [-100, 0, -90, 0, -80, 0, -70, 0, -30, 0], transition: { duration: 10 } },
+    };
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setBouncing(false);
+            setTimeout(() => setBouncing(true), 10);
+        }, 2000); // Adjust the interval based on your preference
+
+        return () => clearInterval(interval);
+    }, []);
 
     return (
-        <>
-            <div className='tennisWrap'>
-                <motion.img className="ball"
-                    initial={{ y: '10%' }}
-                    // animate={{ y: animatValue[1], rotate: rotateValue }}
-                    transition={{
-                        type: "smooth",
-                        duration: 4,
-                        repeat: Infinity,
-                    }}
-                    src={tennisBall} alt="Tennis Ball"
-                />
-            </div>
-
-
-        </>
-    )
-
-}
-
+        <div style={{ width: '100%', height: '100vh', display: 'flex', alignItems: 'flex-end' }}>
+            <motion.img
+                src={tennisBall}
+                animate={isBouncing ? 'bounce' : undefined}
+                variants={ballVariants}
+                style={{
+                    width: 50,
+                    height: 50,
+                }}
+            />
+        </div>
+    );
+};
 
 
 export default GoldenGame;

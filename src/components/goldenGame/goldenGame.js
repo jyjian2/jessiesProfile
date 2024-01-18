@@ -5,16 +5,16 @@ import { useState } from "react";
 
 function GoldenGame() {
 
-    const [tennisPosition, setTennisPosition] = useState([0, 0])
+    const [tennisPosition, setTennisPosition] = useState([0, "100%"])
     const [animatValue, setAnimateValue] = useState([0, "50vh"])
     const [rotateValue, setRotateValue] = useState(360)
 
     return (
         <>
             <div className='tennisWrap'>
-                <motion.img
-                    initial={{ y: tennisPosition[1] }}
-                    animate={{ y: animatValue[1], rotate: rotateValue}}
+                <motion.img className="ball"
+                    initial={{ y: '10%' }}
+                    // animate={{ y: animatValue[1], rotate: rotateValue }}
                     transition={{
                         type: "smooth",
                         duration: 4,

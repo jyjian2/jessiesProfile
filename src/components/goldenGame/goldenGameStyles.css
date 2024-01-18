@@ -4,6 +4,16 @@
 }
 
 img {
-    height: 5%;
-    width: 5%;
+    position: relative;
+    height: auto;
+    width: 8vw;
+    object-fit: cover;
+    
+}
+
+.tennisWrap {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
 }

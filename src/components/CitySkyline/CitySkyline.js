@@ -1,4 +1,6 @@
-function SelfIntroduction() {
+import '/Users/keziah/Developer/jessies_profile/src/components/CitySkyline/CitySkyline.styles.css'
+
+function CitySkyline() {
     const profile = {
         name: "Jessie",
         imageUrl: '',
@@ -7,7 +9,14 @@ function SelfIntroduction() {
 
     return (
         <>
-        
+            <div>
+                <h1>{profile.name}</h1>
+                <img
+                    src={profile.imageUrl}
+                    alt={`${profile.name}'s profile picture`}
+                ></img>
+                {profile.selfIntro}
+            </div>
             <div class="background-buildings sky">
                 <div></div>
                 <div></div>
@@ -84,4 +93,4 @@ function SelfIntroduction() {
     )
 }
 
-export default SelfIntroduction;
+export default CitySkyline;

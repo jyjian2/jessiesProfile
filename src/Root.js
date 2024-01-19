@@ -6,6 +6,7 @@ import SelfIntroduction from './components/SelfIntroduction/SelfIntroduction';
 import Projects from './components/Projects/Projects.js';
 import GoldenGame from './components/goldenGame/goldenGame.js';
 import Footer from './components/Footer/Footer.js';
+import CitySkyline from './components/CitySkyline/CitySkyline.js';
 
 
 
@@ -18,6 +19,7 @@ function Root() {
 
         <section id="self-introduction">
           <SelfIntroduction />
+           
         </section>
       </div>
 

@@ -9,14 +9,6 @@ function CitySkyline() {
 
     return (
         <>
-            <div>
-                <h1>{profile.name}</h1>
-                <img
-                    src={profile.imageUrl}
-                    alt={`${profile.name}'s profile picture`}
-                ></img>
-                {profile.selfIntro}
-            </div>
             <div class="background-buildings sky">
                 <div></div>
                 <div></div>

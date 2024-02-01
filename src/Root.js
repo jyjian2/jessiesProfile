@@ -19,12 +19,13 @@ function Root() {
 
         <section id="self-introduction">
           <SelfIntroduction />
-           
+
         </section>
       </div>
 
       <div className='middleViewPort'>
         <section id="projects">
+          <h1>Projects</h1>
           <Projects />
         </section>
       </div>

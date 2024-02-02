@@ -11,7 +11,7 @@ const VideoCard = () => {
         </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <div className="embed-responsive embed-responsive-16by9">
+        {/* <div className="embed-responsive embed-responsive-16by9">
           <iframe
             className="embed-responsive-item"
             src="https://www.youtube.com/embed/your-video-id"
@@ -21,7 +21,7 @@ const VideoCard = () => {
             allowFullScreen
             style={{ width: '100%', height: '100%' }}
           ></iframe>
-        </div>
+        </div> */}
       </Card.Footer>
     </Card>
   );

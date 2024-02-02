@@ -9,4 +9,12 @@
     margin: 10px;
     box-sizing: border-box;
   }
+
+  .full-height-container {
+    height: 100%;
+  }
+
+  .parent-container {
+    height: 50vh;
+  }
   

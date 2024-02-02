@@ -40,23 +40,40 @@ function Projects() {
 
     return (
         <>
-            <h1>Projects</h1>
-            <div className="container">
-                <div className="projectGrid">
-                    <VideoCard />
-                </div>
-                <div className="projectGrid">
-                    <VideoCard />
-                </div>
-                <div className="projectGrid">
-                    <ImageCard />
-                </div>
-                <div className="projectGrid">
-                    <ImageCard />
+            <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                <h1>Projects</h1>
+                <div className="parent-container">
+                    <Container className="">
+                        <Row>
+                            <Col md={6}>
+                                <div className="projectGrid">
+                                    <VideoCard />
+                                </div>
+                            </Col>
+                            <Col md={6}>
+                                <div className="projectGrid">
+                                    <VideoCard />
+                                </div>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md={6}>
+                                <div className="projectGrid">
+                                    <ImageCard />
+                                </div>
+                            </Col>
+                            <Col md={6}>
+                                <div className="projectGrid">
+                                    <ImageCard />
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
             </div>
+
         </>
-    )
+    );
 };
 
 export default Projects;

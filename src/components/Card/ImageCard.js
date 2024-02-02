@@ -11,11 +11,11 @@ const ImageCard = () => {
         </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <Card.Img
+        {/* <Card.Img
         max-width="auto"
         height="auto"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa3kyNavHMkogoFeYu1aE0BwMokrus96KdfSZVlVLsVB-QLuBsozeMBkzd2uBVgAeoby8&usqp=CAU">
-        </Card.Img>
+        </Card.Img> */}
 
       </Card.Footer>
     </Card>

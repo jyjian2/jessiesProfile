@@ -2,6 +2,7 @@ import { Card } from "react-bootstrap";
 import { Container, Row, Col } from "react-bootstrap";
 import VideoCard from "../Card/VideoCard";
 import ImageCard from "../Card/ImageCard";
+import './ProjectsStyles.css';
 
 function Projects() {
     console.log("???");
@@ -38,24 +39,23 @@ function Projects() {
     ]
 
     return (
-        <Container>
-            <Row>
-                <Col class="col-md-6">
+        <>
+            <h1>Projects</h1>
+            <div className="container">
+                <div className="projectGrid">
                     <VideoCard />
-                </Col>
-                <Col class="col-md-6">
+                </div>
+                <div className="projectGrid">
                     <VideoCard />
-                </Col>
-            </Row>
-            <Row>
-                <Col class="col-md-6">
+                </div>
+                <div className="projectGrid">
                     <ImageCard />
-                </Col>
-                <Col class="col-md-6">
+                </div>
+                <div className="projectGrid">
                     <ImageCard />
-                </Col>
-            </Row>
-        </Container>
+                </div>
+            </div>
+        </>
     )
 };
 

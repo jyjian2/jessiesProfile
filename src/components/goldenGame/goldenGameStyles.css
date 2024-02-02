@@ -3,13 +3,13 @@
     padding: 0;
 }
 
-img {
+/* img {
     position: relative;
     height: auto;
     width: 8vw;
     object-fit: cover;
     
-}
+} */
 
 .tennisWrap {
     height: 60vh;

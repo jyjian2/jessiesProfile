@@ -25,7 +25,6 @@ function Root() {
 
       <div className='middleViewPort'>
         <section id="projects">
-          <h1>Projects</h1>
           <Projects />
         </section>
       </div>

@@ -19,12 +19,12 @@ function Root() {
 
         <section id="self-introduction">
           <SelfIntroduction />
-           
+
         </section>
       </div>
 
       <div className='middleViewPort'>
-        <section id="projects">
+        <section id="projects"  style={{ position: 'relative', width: '100%', height: '100%' }}>
           <Projects />
         </section>
       </div>

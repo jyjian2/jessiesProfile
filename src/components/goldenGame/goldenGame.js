@@ -4,89 +4,42 @@ import './goldenGameStyles.css';
 import { useState, useEffect } from "react";
 
 const GoldenGame = () => {
-    const [isBouncing, setBouncing] = useState(true);
+    const [isBouncing, setIsBouncing] = useState(true);
     const balls = [1, 2, 3, 4, 5, 6, 7, 8];
+    const bounceVariants = [
+        [-550, 0, -200, 0, -150, 0, -100, 0, -50],
+        [-100, 0, -90, 0, -80, 0, -70, 0, -30, 0],
+        [-700, 0, -450, 0, -350, 0, -100, 0, -80, 0],
+        [-200, 0, -150, 0, -100, 0, -50, 0, -20, 0],
+        [-400, 0, -350, 0, -250, 0, -150, 0, -100, 0],
+        [-600, 0, -550, 0, -400, 0, -350, 0, -200, 0]
+    ]
+    const transitionValues = {
+        duration: 20,
+        yoyo: Infinity,
+        // ease: "easeOut"
+      };
 
-    const ballVariants = {
-        initial: { y: 0 },
-        bounce: { y: [-100, 0, -90, 0, -80, 0, -70, 0, -30, 0], 
-        transition: { duration: 10, repeat: Infinity } },
-    };
+  useEffect(() => {
 
-    useEffect(() => {
-        // const interval = setInterval(() => {
-        //     setBouncing(false);
-        //     setTimeout(() => setBouncing(true), 10);
-        // }, 10000); // Adjust the interval based on your preference
+  }, [])
 
-        // return () => clearInterval(interval);
-    }, []);
-
-    return (
-        <div style={{ width: '100%', height: '100vh', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-around' }}>
-            <motion.img
-                    src={tennisBall}
-                    animate={isBouncing ? 'bounce' : undefined}
-                    variants={ballVariants}
-                    style={{
-                        width: 50,
-                        height: 50,
-                        
-                    }}
-                />
-                <motion.img
-                    src={tennisBall}
-                    animate={isBouncing ? 'bounce' : undefined}
-                    variants={ballVariants}
-                    style={{
-                        width: 50,
-                        height: 50,
-                        
-                    }}
-                />
-                <motion.img
-                    src={tennisBall}
-                    animate={isBouncing ? 'bounce' : undefined}
-                    variants={ballVariants}
-                    style={{
-                        width: 50,
-                        height: 50,
-                        
-                    }}
-                />
-                <motion.img
-                    src={tennisBall}
-                    animate={isBouncing ? 'bounce' : undefined}
-                    variants={ballVariants}
-                    style={{
-                        width: 50,
-                        height: 50,
-                        
-                    }}
-                />
-                <motion.img
-                    src={tennisBall}
-                    animate={isBouncing ? 'bounce' : undefined}
-                    variants={ballVariants}
-                    style={{
-                        width: 50,
-                        height: 50,
-                        
-                    }}
-                />
-                <motion.img
-                    src={tennisBall}
-                    animate={isBouncing ? 'bounce' : undefined}
-                    variants={ballVariants}
-                    style={{
-                        width: 50,
-                        height: 50,
-                        
-                    }}
-                />
-        </div>
-        
-    );
+  return (
+    <div style={{ width: '100%', height: '100vh', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-around' }}>
+      {bounceVariants.map((bv, idx) => (
+        <motion.img
+          key={idx}
+          src={tennisBall}
+          animate={{y: bv}}
+          transition={{y : transitionValues}}
+          style={{
+            width: 50,
+            height: 50,
+          }}
+        />
+      ))}
+    </div>
+  );
 
 };
 

@@ -39,7 +39,7 @@ const GoldenGame = () => {
 
     return (
         <div style={{ width: '100%', height: '100vh', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-evenly' }}>
-        <img src={jasperPhoto} style={{display : isDisplay}}/>
+        <img src={jasperPhoto} style={{width:'30%',height: '30%', display : isDisplay, alignItems: 'center'}}/>
             {bounceVariants.map((bv, idx) => (
                 <motion.img
                     onClick={handleClickBall}

@@ -2,11 +2,12 @@ import { motion } from "framer-motion";
 import tennisBall from "/Users/keziah/Developer/jessies_profile/src/assets/tennisBall.png";
 import './goldenGameStyles.css';
 import { useState, useEffect } from "react";
+import jasperPhoto from "/Users/keziah/Developer/jessies_profile/src/assets/JasperPhoto.jpg";
 
 const GoldenGame = () => {
     const [isBouncing, setIsBouncing] = useState(true)
     const [repeatValue, setRepeatValue] = useState(Infinity)
-    const [opacity, setOpacity] = useState(0)
+    const [isDisplay, setIsDisplay] = useState('none')
 
     const bounceVariants = [
         [-650, 0, -600, 0, -450, 0, -400, 0, -200, 0],
@@ -25,6 +26,7 @@ const GoldenGame = () => {
     const handleClickBall = () => {
         console.log('ball has been clicked')
         setIsBouncing(false)
+        setIsDisplay('')
     }
 
     useEffect(() => {
@@ -37,6 +39,7 @@ const GoldenGame = () => {
 
     return (
         <div style={{ width: '100%', height: '100vh', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-evenly' }}>
+        <img src={jasperPhoto} style={{display : isDisplay}}/>
             {bounceVariants.map((bv, idx) => (
                 <motion.img
                     onClick={handleClickBall}

@@ -30,10 +30,7 @@ function Root() {
       </div>
       <div className='buttonViewPort'>
         <section id="goldenGame" className='game'>
-          <div style={{ width: '100%', height: '100vh', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-evenly'}}>
             <GoldenGame />
-          </div>
-
         </section>
         <section id="footer">
           <Footer />

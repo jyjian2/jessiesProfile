@@ -4,8 +4,9 @@ import './goldenGameStyles.css';
 import { useState, useEffect } from "react";
 
 const GoldenGame = () => {
-    const [isBouncing, setIsBouncing] = useState(true);
+    const [isBouncing, setIsBouncing] = useState(true)
     const [repeatValue, setRepeatValue] = useState(Infinity)
+    const [opacity, setOpacity] = useState(0)
 
     const bounceVariants = [
         [-650, 0, -600, 0, -450, 0, -400, 0, -200, 0],
@@ -23,12 +24,12 @@ const GoldenGame = () => {
 
     const handleClickBall = () => {
         console.log('ball has been clicked')
-        setRepeatValue(0)
+        setIsBouncing(false)
     }
 
     useEffect(() => {
-        console.log('current repeat value', repeatValue)
-    }, [])
+        
+    }, [isBouncing])
 
 
 

@@ -4,7 +4,8 @@ import './goldenGameStyles.css';
 import { useState, useEffect } from "react";
 
 const GoldenGame = () => {
-    // const [isBouncing, setIsBouncing] = useState(true);
+    const [isBouncing, setIsBouncing] = useState(true);
+    const [repeatValue, setRepeatValue] = useState(Infinity)
 
     const bounceVariants = [
         [-650, 0, -600, 0, -450, 0, -400, 0, -200, 0],
@@ -15,31 +16,41 @@ const GoldenGame = () => {
         [-600, 0, -550, 0, -400, 0, -350, 0, -200, 0]
     ]
     const transitionValues = {
-        duration: 20,
-        repeat: Infinity,
+        duration: 40,
+        repeat: repeatValue,
         ease: "easeOut"
-      };
+    };
 
-  useEffect(() => {
+    const handleClickBall = () => {
+        console.log('ball has been clicked')
+        setRepeatValue(0)
+    }
 
-  }, [])
+    useEffect(() => {
+        console.log('current repeat value', repeatValue)
+    }, [])
 
-  return (
-    <div style={{ width: '100%', height: '100vh', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-evenly'}}>
-      {bounceVariants.map((bv, idx) => (
-        <motion.img
-          key={idx}
-          src={tennisBall}
-          animate={{y: bv}}
-          transition={{y : transitionValues}}
-          style={{
-            width: 50,
-            height: 50,
-          }}
-        />
-      ))}
-    </div>
-  );
+
+
+
+
+    return (
+        <div style={{ width: '100%', height: '100vh', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-evenly' }}>
+            {bounceVariants.map((bv, idx) => (
+                <motion.img
+                    onClick={handleClickBall}
+                    key={idx}
+                    src={tennisBall}
+                    animate={{ y: isBouncing ? bv : 0 }}
+                    transition={{ y: transitionValues }}
+                    style={{
+                        width: 50,
+                        height: 50,
+                    }}
+                />
+            ))}
+        </div>
+    );
 
 };
 

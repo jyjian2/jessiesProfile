@@ -1,7 +1,9 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-const VideoCard = () => {
+const VideoCard = (props) => {
+  const video = props.video
+  
   return (
     <Card >
       <Card.Body>
@@ -14,7 +16,7 @@ const VideoCard = () => {
         <div className="embed-responsive embed-responsive-16by9">
           <iframe
             className="embed-responsive-item"
-            src="https://www.youtube.com/embed/anttS9XAs1Q "
+            src={video}
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

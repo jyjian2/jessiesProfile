@@ -30,10 +30,7 @@ function Root() {
       </div>
       <div className='buttonViewPort'>
         <section id="goldenGame" className='game'>
-          <div>
             <GoldenGame />
-          </div>
-
         </section>
         <section id="footer">
           <Footer />

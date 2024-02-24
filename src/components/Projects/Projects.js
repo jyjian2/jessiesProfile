@@ -5,7 +5,9 @@ import ImageCard from "../Card/ImageCard";
 import './ProjectsStyles.css';
 
 function Projects() {
-    console.log("???");
+
+    const appetaizingVideo = "https://www.youtube.com/embed/anttS9XAs1Q";
+    const vrGameVideo = "https://www.youtube.com/embed/qqLLywfQUu8";
 
     const projects = [
         {
@@ -47,12 +49,12 @@ function Projects() {
                         <Row>
                             <Col md={6}>
                                 <div className="projectGrid">
-                                    <VideoCard />
+                                    <VideoCard video={appetaizingVideo}/>
                                 </div>
                             </Col>
                             <Col md={6}>
                                 <div className="projectGrid">
-                                    <VideoCard />
+                                    <VideoCard video={vrGameVideo}/>
                                 </div>
                             </Col>
                         </Row>

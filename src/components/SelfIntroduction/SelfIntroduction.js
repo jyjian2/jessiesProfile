@@ -11,12 +11,12 @@ function SelfIntroduction() {
     return (
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
             <CitySkyline />
-            <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+            <div style={{ position: 'relative', width: '100%', height: '100%', textAlign: 'center' }}>
                 <h1>{profile.name}</h1>
                 <img
                     src={profile.imageUrl} // Use profile.imageUrl as the source
                     alt={`${profile.name}'s profile picture`}
-                    style={{borderRadius: '50%', width: '8vw', height: 'auto'}}
+                    style={{borderRadius: '50%', width: '15vw', height: 'auto'}}
                 ></img>
                 <p>{profile.selfIntro}</p>
             </div>

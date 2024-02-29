@@ -16,6 +16,7 @@ function SelfIntroduction() {
                 <img
                     src={profile.imageUrl} // Use profile.imageUrl as the source
                     alt={`${profile.name}'s profile picture`}
+                    style={{borderRadius: '50%', width: '8vw', height: 'auto'}}
                 ></img>
                 <p>{profile.selfIntro}</p>
             </div>

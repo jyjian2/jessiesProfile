@@ -1,0 +1,8 @@
+nav ul {
+    list-style-type: none; /* Remove default bullet points */
+}
+
+nav ul li::after {
+    content: "|"; /* Replace bullet point with hyphen */
+    margin-right: 5px; /* Adjust spacing */
+}

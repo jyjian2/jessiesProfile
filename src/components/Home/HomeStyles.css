@@ -54,7 +54,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #B7C9E2;
+    background-color: rgb(183,201,226, 0.5);
     border-radius: 20px;
     
 }
@@ -66,5 +66,13 @@ nav ul li a:hover {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.name {
+    margin-left: 5%;
+}
+
+.title {
+    margin-left: 5%;
 }
 

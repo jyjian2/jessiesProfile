@@ -40,7 +40,11 @@ nav ul li a:hover {
 }
 
 .space {
-    height: 10vh;
+    height: 6vh;
+}
+
+.top-space {
+    height: 3vh;
 }
 
 .contacts {

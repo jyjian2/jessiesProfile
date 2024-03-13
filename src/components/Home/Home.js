@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 function Home() {
     return (
         <>
-
+            <div className="top-space"></div>
             <Row>
                 <Col xs="12" md="6">
                     <h1 className="name">JIA-YI JIAN</h1>

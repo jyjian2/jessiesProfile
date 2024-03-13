@@ -27,7 +27,7 @@ function Home() {
             </Row>
             <div className="space"></div>
             <Row className="picture-intro">
-                <Col md="2">
+                <Col xs="4" md="2">
                     <div className="contacts" style={{marginLeft: "4vw", height: "50vh", width: "8vw", backgroundColor: "black"}}>
                         <img className="icon" src={emailIcon}></img>
                         <img className="icon" src={LinkedInIcon}></img>
@@ -35,10 +35,10 @@ function Home() {
                         <img className="icon" src={pdfIcon}></img>
                     </div>
                 </Col>
-                <Col md="5" className="picture">
-                    <img src={ProfileImg} style={{borderRadius: '50%', width: '30vw', height: 'auto'}}></img>
+                <Col xs="8" md="5" className="picture">
+                    <img src={ProfileImg} style={{borderRadius: '50%', width: '40vw', height: 'auto'}}></img>
                 </Col>
-                <Col md="5" className="intro"><p>Self Inttro. dfjdkgjfklgjlsgjlfdgjslfjglsjglf
+                <Col xs="12" md="5" className="intro"><p>Self Inttro. dfjdkgjfklgjlsgjlfdgjslfjglsjglf
                 ggslkfjgldjglfdgjlsjg'sgjldjgdlfgjsklfgj
                 slgjlfkjgdklfjgfkghjifgjodlfjgldfjgflkgj kfgjldgjlf ggslkfjgldjglfdgjlsjg
                 gjkfsldjglfkjdglfjgklfgjlfgjlfgjldjg</p></Col>

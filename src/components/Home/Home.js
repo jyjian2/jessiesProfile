@@ -1,4 +1,8 @@
 import ProfileImg from "../../assets/jyjian2Profile.jpg";
+import emailIcon from "../../assets/email_icon.png"
+import LinkedInIcon from "../../assets/linkedin_icon.png"
+import githubIcon from "../../assets/github_icon.png"
+import pdfIcon from "../../assets/pdf_icon.png"
 import "./HomeStyles.css"
 import { Col, Row, Container } from 'react-bootstrap';
 
@@ -25,7 +29,10 @@ function Home() {
             <Row className="picture-intro">
                 <Col md="2">
                     <div className="contacts" style={{marginLeft: "4vw", height: "50vh", width: "8vw", backgroundColor: "black"}}>
-                        
+                        <img src={emailIcon}></img>
+                        <img src={LinkedInIcon}></img>
+                        <img src={githubIcon}></img>
+                        <img src={pdfIcon}></img>
                     </div>
                 </Col>
                 <Col md="5" className="picture">

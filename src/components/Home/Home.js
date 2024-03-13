@@ -23,10 +23,15 @@ function Home() {
             </Row>
             <div className="space"></div>
             <Row className="picture-intro">
-                <Col md="4" className="picture">
+                <Col md="2">
+                    <div className="contacts" style={{marginLeft: "4vw", height: "50vh", width: "8vw", backgroundColor: "black"}}>
+                        
+                    </div>
+                </Col>
+                <Col md="5" className="picture">
                     <img src={ProfileImg} style={{borderRadius: '50%', width: '30vw', height: 'auto'}}></img>
                 </Col>
-                <Col md="8" className="intro"><p>Self Inttro. dfjdkgjfklgjlsgjlfdgjslfjglsjglf
+                <Col md="5" className="intro"><p>Self Inttro. dfjdkgjfklgjlsgjlfdgjslfjglsjglf
                 ggslkfjgldjglfdgjlsjg'sgjldjgdlfgjsklfgj
                 slgjlfkjgdklfjgfkghjifgjodlfjgldfjgflkgj kfgjldgjlf ggslkfjgldjglfdgjlsjg
                 gjkfsldjglfkjdglfjgklfgjlfgjlfgjldjg</p></Col>

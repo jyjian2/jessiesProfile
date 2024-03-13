@@ -29,10 +29,10 @@ function Home() {
             <Row className="picture-intro">
                 <Col md="2">
                     <div className="contacts" style={{marginLeft: "4vw", height: "50vh", width: "8vw", backgroundColor: "black"}}>
-                        <img src={emailIcon}></img>
-                        <img src={LinkedInIcon}></img>
-                        <img src={githubIcon}></img>
-                        <img src={pdfIcon}></img>
+                        <img className="icon" src={emailIcon}></img>
+                        <img className="icon" src={LinkedInIcon}></img>
+                        <img className="icon" src={githubIcon}></img>
+                        <img className="icon" src={pdfIcon}></img>
                     </div>
                 </Col>
                 <Col md="5" className="picture">

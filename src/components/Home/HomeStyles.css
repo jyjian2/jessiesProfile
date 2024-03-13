@@ -46,8 +46,13 @@ nav ul li a:hover {
 .contacts {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-left: "4vw";
     height: "50vh";
     width: "8vw";
     background-color: "black"
+}
+
+.icon {
+    margin:15%;
 }

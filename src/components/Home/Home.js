@@ -28,7 +28,7 @@ function Home() {
             <div className="space"></div>
             <Row className="picture-intro">
                 <Col xs="4" md="2">
-                    <div className="contacts" style={{marginLeft: "4vw", height: "50vh", width: "8vw", backgroundColor: "black"}}>
+                    <div className="contacts">
                         <img className="icon" src={emailIcon}></img>
                         <img className="icon" src={LinkedInIcon}></img>
                         <img className="icon" src={githubIcon}></img>

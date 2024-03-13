@@ -24,3 +24,21 @@ nav ul li a:hover {
     margin: auto;
 
 }
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+}
+
+.space {
+    height: 10vh;
+}

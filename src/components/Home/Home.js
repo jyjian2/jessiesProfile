@@ -27,6 +27,7 @@ function Home() {
 
                 </Col>
             </Row>
+            <div className="divider"></div>
             <div className="space"></div>
             <Row className="picture-intro">
                 <Col xs="4" md="2">
@@ -49,6 +50,7 @@ function Home() {
 
             </Row>
             <div className="space"></div>
+            <div className="divider"></div>
 
 
 

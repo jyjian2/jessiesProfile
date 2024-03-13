@@ -56,5 +56,11 @@ nav ul li a:hover {
 }
 
 .icon {
-    margin:15%;
+    padding:5%;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+

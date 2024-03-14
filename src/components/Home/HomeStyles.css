@@ -1,3 +1,7 @@
+a {
+    text-decoration: none !important; /* Important to override any existing styles */
+}
+
 nav ul {
     list-style-type: none;
 }
@@ -10,19 +14,16 @@ nav ul li:last-child {
     margin-right: 0;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-nav ul li a:hover {
-    color: #555;
+.nav-item:hover {
+    color: white;
 }
 
 .nav-item {
     padding: 10%;
     margin: auto;
-
+    color: #303841;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 .picture {
@@ -37,10 +38,12 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     padding-top: 2vh;
+    color: #303841;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .space {
-    height: 6vh;
+    height: 1vh;
 }
 
 .top-space {
@@ -70,10 +73,16 @@ img {
 
 .name {
     margin-left: 5%;
+    color: #303841;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 .title {
     margin-left: 5%;
+    color: #303841;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 .divider {

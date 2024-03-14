@@ -7,39 +7,45 @@ import Projects from './components/Projects/Projects.js';
 import GoldenGame from './components/goldenGame/goldenGame.js';
 import Footer from './components/Footer/Footer.js';
 import CitySkyline from './components/CitySkyline/CitySkyline.js';
+import Home from './components/Home/Home.js';
 
 
 
 function Root() {
   return (
     <>
-      <div className="topViewPort">
-
-        <NavBar />
-
-        <section id="self-introduction">
-          <SelfIntroduction />
-
-        </section>
-      </div>
-
-      <div className='middleViewPort'>
-        <section id="projects"  style={{ position: 'relative', width: '100%', height: '100%' }}>
-          <Projects />
-        </section>
-      </div>
-      <div className='buttonViewPort'>
-        <section id="goldenGame" className='game'>
-            <GoldenGame />
-        </section>
-        <section id="footer">
-          <Footer />
-        </section>
-      </div>
-
-
+    <Home />
     </>
-  );
+  )
+  // return (
+  //   <>
+  //     <div className="topViewPort">
+
+  //       <NavBar />
+
+  //       <section id="self-introduction">
+  //         <SelfIntroduction />
+
+  //       </section>
+  //     </div>
+
+  //     <div className='middleViewPort'>
+  //       <section id="projects"  style={{ position: 'relative', width: '100%', height: '100%' }}>
+  //         <Projects />
+  //       </section>
+  //     </div>
+  //     <div className='buttonViewPort'>
+  //       <section id="goldenGame" className='game'>
+  //           <GoldenGame />
+  //       </section>
+  //       <section id="footer">
+  //         <Footer />
+  //       </section>
+  //     </div>
+
+
+  //   </>
+  // );
 }
 
 export default Root;

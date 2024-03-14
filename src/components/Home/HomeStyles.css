@@ -91,3 +91,14 @@ img {
     background-color: #85a6b1;
     margin: 10px 0;
 }
+
+.copyright {
+    color: #303841;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

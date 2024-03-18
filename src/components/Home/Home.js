@@ -6,6 +6,7 @@ import pdfIcon from "../../assets/pdf_icon.png"
 import resumeFile from "../../assets/JiaYiJian_Resume.pdf"
 import "./HomeStyles.css"
 import { Col, Row, Container } from 'react-bootstrap';
+import * as React from "react";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -20,7 +21,8 @@ function Home() {
                 <Col xs="12" md="6">
 
                     <Row className="nav-bar">
-                        <Col s="2"><a href="#/resume"><h4 className="nav-item">Resume</h4></a></Col>
+                        <Col s="2"><Link to={"resume"}><h4 className="nav-item">Resume</h4></Link></Col>
+                        {/* <Col s="2"><a href="/resume"><h4 className="nav-item">Resume</h4></a></Col> */}
                         <Col s="2"><a href="#/resume"><h4 className="nav-item">Projects</h4></a></Col>
                         <Col s="2"><a href="#/resume"><h4 className="nav-item">Personal</h4></a></Col>
                     </Row>

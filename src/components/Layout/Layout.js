@@ -2,20 +2,35 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import TopSection from '../TopSection/TopSection.js'; // Import your fixed component
 import 'bootstrap/dist/css/bootstrap.min.css';
+import LeftContact from '../LeftContact/LeftContact.js';
+import { Col, Row, Container } from 'react-bootstrap';
 
 function Layout() {
   return (
-    <React.Fragment>
-      <div>
+    <div>
       <header>
         <TopSection />
       </header>
       <main>
-        <Outlet />
+        <Container>
+          <Row>
+            <Col xs="4" md="2">
+              <LeftContact />
+            </Col>
+            <Col xs="12" md="10">
+              <Outlet />
+            </Col>
+
+          </Row>
+
+        </Container>
+
+
+
+
       </main>
     </div>
-    </React.Fragment>
-    
+
   );
 }
 

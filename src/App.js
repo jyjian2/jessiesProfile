@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home.js'; 
 import Layout from './components/Layout/Layout.js'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import Resume from './components/Resume'; 
 // import Projects from './components/Projects'; 
 // import Personal from './components/Personal'; 

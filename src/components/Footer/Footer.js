@@ -1,8 +1,11 @@
 function Footer() {
     return (
-        <div>
-            Footer
-        </div>
+        <>
+            <div className="space"></div>
+            <div className="divider"></div>
+            <div className="copyright"><p>© 2024 By Jia-Yi Jian.</p></div>
+        </>
+
     )
 }
 

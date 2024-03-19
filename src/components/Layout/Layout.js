@@ -4,6 +4,8 @@ import TopSection from '../TopSection/TopSection.js'; // Import your fixed compo
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LeftContact from '../LeftContact/LeftContact.js';
 import { Col, Row, Container } from 'react-bootstrap';
+import Footer from '../Footer/Footer.js';
+
 
 function Layout() {
   return (
@@ -12,23 +14,21 @@ function Layout() {
         <TopSection />
       </header>
       <main>
-        <Container>
+      
           <Row>
             <Col xs="4" md="2">
               <LeftContact />
             </Col>
-            <Col xs="12" md="10">
+            <Col xs="8" md="10">
               <Outlet />
             </Col>
 
           </Row>
 
-        </Container>
-
-
-
-
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
 
   );

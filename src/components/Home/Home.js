@@ -11,7 +11,7 @@ function Home() {
         <>
 
             <div className="space"></div>
-            <Container>
+        
                 <Row className="picture-intro">
                    
                     <Col xs="8" md="5" className="picture">
@@ -22,14 +22,9 @@ function Home() {
                         slgjlfkjgdklfjgfkghjifgjodlfjgldfjgflkgj kfgjldgjlf ggslkfjgldjglfdgjlsjg
                         gjkfsldjglfkjdglfjgklfgjlfgjlfgjldjg</p></Col>
                 </Row>
-                <Row>
+        
 
-                </Row>
-            </Container>
 
-            <div className="space"></div>
-            <div className="divider"></div>
-            <div className="copyright"><p>© 2024 By Jia-Yi Jian.</p></div>
 
 
 

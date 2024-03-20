@@ -12,8 +12,8 @@ function Resume() {
             <div className="resume-wrap">
                 <Row >
 
-                    <Col>skills</Col>
-                    <Col md="2">
+                    <Col className="d-flex align-items-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center">
                         <p>09.2023-12.2023</p>
                     </Col>
                     <Col md="8" xs="12" >
@@ -30,8 +30,8 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col>skills</Col>
-                    <Col md="2">
+                    <Col className="d-flex align-items-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center">
                         <p>06.2023-09.2023</p>
                     </Col>
                     <Col md="8" xs="12" >
@@ -47,8 +47,8 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col>skills</Col>
-                    <Col md="2">
+                    <Col className="d-flex align-items-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center">
                         <p>01.2023-04.2023</p>
                     </Col>
                     <Col md="8" xs="12" >
@@ -63,8 +63,8 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col>skills</Col>
-                    <Col md="2">
+                    <Col className="d-flex align-items-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center">
                         <p>09-2021 - 04-2022</p>
                     </Col>
                     <Col md="8" xs="12" >
@@ -77,8 +77,8 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col>skills</Col>
-                    <Col md="2">
+                    <Col className="d-flex align-items-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center">
                         <p>08-2020 - 06-2021</p>
                     </Col>
                     <Col md="8" xs="12" >
@@ -94,8 +94,8 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col>skills</Col>
-                    <Col md="2">
+                    <Col className="d-flex align-items-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center">
                         <p>02-2018 - 06-2019</p>
 
                     </Col>
@@ -113,8 +113,8 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col>skills</Col>
-                    <Col md="2">
+                    <Col className="d-flex align-items-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center">
                         <p> 06-2016 - 07-2017</p>
 
                     </Col>

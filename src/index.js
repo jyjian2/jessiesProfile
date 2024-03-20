@@ -1,45 +1,13 @@
-import React, { Children } from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Root from './Root';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.css';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import SelfIntroduction from './components/SelfIntroduction/SelfIntroduction';
-import Projects from './components/Projects/Projects';
-import Resume from './components/Resume/Resume';
-import Contacts from './components/Contacts/Contacts';
-import goldenGame from './components/goldenGame/goldenGame';
+// index.js
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import './index.css'; // Optional CSS file
+import App from './App.js';
+import { createRoot } from 'react-dom/client';
 
-const router = createBrowserRouter([
-  {
-    //root route
-    path: "/",
-    element: <Root />,
-    children: [
-      {
-        path: "projects",
-        element: <Projects />
-      },
-      {
-        path: "resume",
-        element: <Resume />
-      },
-      {
-        path: "contacts",
-        element: <Contacts />
-      }
-
-    ]
-  } 
-])
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = createRoot(document.getElementById('root'));
+root.render(<Router>
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
-);
-
+</Router>);

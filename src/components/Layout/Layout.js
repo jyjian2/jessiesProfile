@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import LeftContact from '../LeftContact/LeftContact.js';
 import { Col, Row, Container } from 'react-bootstrap';
 import Footer from '../Footer/Footer.js';
+import './LayoutStyles.css';
 
 
 function Layout() {
@@ -14,17 +15,9 @@ function Layout() {
         <TopSection />
       </header>
       <main>
-      
-          <Row>
-            <Col xs="4" md="2">
-              <LeftContact />
-            </Col>
-            <Col xs="8" md="10">
-              <Outlet />
-            </Col>
-
-          </Row>
-
+          <LeftContact />
+          <Outlet />
+       
       </main>
       <footer>
         <Footer />

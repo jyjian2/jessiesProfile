@@ -11,18 +11,40 @@ function Home() {
         <>
 
             <div className="space"></div>
-        
+            <Container>
                 <Row className="picture-intro">
-                   
-                    <Col xs="8" md="5" className="picture">
+                    <Col className="picture">
                         <img src={ProfileImg} style={{ borderRadius: '50%', width: '40vw', height: 'auto' }}></img>
                     </Col>
-                    <Col xs="12" md="5" className="intro"><p>Self Inttro. dfjdkgjfklgjlsgjlfdgjslfjglsjglf
+                    <Col md="6" xs="12" className="intro"><p>Self Inttro. dfjdkgjfklgjlsgjlfdgjslfjglsjglf
                         ggslkfjgldjglfdgjlsjg'sgjldjgdlfgjsklfgj
                         slgjlfkjgdklfjgfkghjifgjodlfjgldfjgflkgj kfgjldgjlf ggslkfjgldjglfdgjlsjg
-                        gjkfsldjglfkjdglfjgklfgjlfgjlfgjldjg</p></Col>
+                        gjkfsldjglfkjdglfjgklfgjlfgjlfgjldjg</p>
+                    </Col>
                 </Row>
-        
+                <Row className="picture-intro">
+                    <Col className="picture">
+                        <img src={ProfileImg} style={{ borderRadius: '50%', width: '40vw', height: 'auto' }}></img>
+                    </Col>
+                    <Col md="6" xs="12" className="intro"><p>Self Inttro. dfjdkgjfklgjlsgjlfdgjslfjglsjglf
+                        ggslkfjgldjglfdgjlsjg'sgjldjgdlfgjsklfgj
+                        slgjlfkjgdklfjgfkghjifgjodlfjgldfjgflkgj kfgjldgjlf ggslkfjgldjglfdgjlsjg
+                        gjkfsldjglfkjdglfjgklfgjlfgjlfgjldjg</p>
+                    </Col>
+                </Row>
+                <Row className="picture-intro">
+                    <Col className="picture">
+                        <img src={ProfileImg} style={{ borderRadius: '50%', width: '40vw', height: 'auto' }}></img>
+                    </Col>
+                    <Col md="6" xs="12" className="intro"><p>Self Inttro. dfjdkgjfklgjlsgjlfdgjslfjglsjglf
+                        ggslkfjgldjglfdgjlsjg'sgjldjgdlfgjsklfgj
+                        slgjlfkjgdklfjgfkghjifgjodlfjgldfjgflkgj kfgjldgjlf ggslkfjgldjglfdgjlsjg
+                        gjkfsldjglfkjdglfjgklfgjlfgjlfgjldjg</p>
+                    </Col>
+                </Row>
+            </Container>
+
+
 
 
 

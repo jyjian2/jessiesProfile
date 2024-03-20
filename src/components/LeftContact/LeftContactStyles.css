@@ -15,8 +15,8 @@
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    top: 20vh;
-    left: 2vw; 
+    top: 25vh;
+    left: 3vw; 
     background-color: rgb(183, 201, 226, 0.5);
     border-radius: 20px;
     width: 5vw;

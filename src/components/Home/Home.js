@@ -11,7 +11,7 @@ function Home() {
         <>
 
             <div className="space"></div>
-            <Container>
+            <div className="home-wrap">
                 <Row className="picture-intro">
                     <Col className="picture">
                         <img src={ProfileImg} style={{ borderRadius: '50%', width: '40vw', height: 'auto' }}></img>
@@ -42,7 +42,7 @@ function Home() {
                         gjkfsldjglfkjdglfjgklfgjlfgjlfgjldjg</p>
                     </Col>
                 </Row>
-            </Container>
+            </div>
 
 
 

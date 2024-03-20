@@ -1,8 +1,10 @@
 import "./ResumeStyles.css"
-import { Col, Row, Container } from 'react-bootstrap';
+import { Col, Row, Container, Stack } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Badge from 'react-bootstrap/Badge';
+
 
 function Resume() {
     return (
@@ -11,11 +13,21 @@ function Resume() {
             <div className="space"></div>
             <div className="resume-wrap">
                 <Row >
-
-                    <Col className="d-flex align-items-center">skills</Col>
-                    <Col md="2" className="d-flex align-items-center">
+                    <Col md="2" className="d-flex align-items-center justify-content-center">
                         <p>09.2023 - 12.2023</p>
                     </Col>
+
+                    <Col className="d-flex align-items-center justify-content-center">
+                        <div direction="vertical" gap={2}>
+                            <Badge pill bg="primary">Primary</Badge>
+                            <Badge pill bg="info">Info</Badge>
+                            <Badge pill bg="light" text="dark">Light</Badge>
+                            <Badge pill bg="light" text="dark">Light</Badge>
+                            <Badge pill bg="light" text="dark">Light</Badge>
+                            <Badge pill bg="light" text="dark">Light</Badge>
+                        </div>
+                    </Col>
+
                     <Col md="8" xs="12" >
                         <ul>
                             <p>AppetAIzing: An AI-powered recipe summerization system</p>
@@ -26,12 +38,12 @@ function Resume() {
                             <li>Leveraged object storage such as AWS S3 to persist image files</li>
                         </ul>
                     </Col>
-                    <div className="divider"></div>
+                    <div className="resume-divider"></div>
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center">skills</Col>
-                    <Col md="2" className="d-flex align-items-center">
+                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center justify-content-center">
                         <p>06.2023 - 09.2023</p>
                     </Col>
                     <Col md="8" xs="12" >
@@ -43,12 +55,12 @@ function Resume() {
                             </li>
                         </ul>
                     </Col>
-                    <div className="divider"></div>
+                    <div className="resume-divider"></div>
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center">skills</Col>
-                    <Col md="2" className="d-flex align-items-center">
+                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center justify-content-center">
                         <p>01.2023 - 04.2023</p>
                     </Col>
                     <Col md="8" xs="12" >
@@ -59,12 +71,12 @@ function Resume() {
                             <li>Incorporated RESTful APIs for executing data creation, retrieval, updating, and deletion from the MongoDB database</li>
                         </ul>
                     </Col>
-                    <div className="divider"></div>
+                    <div className="resume-divider"></div>
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center">skills</Col>
-                    <Col md="2" className="d-flex align-items-center">
+                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center justify-content-center">
                         <p>09.2021 - 04.2022</p>
                     </Col>
                     <Col md="8" xs="12" >
@@ -73,12 +85,12 @@ function Resume() {
                             <li>Constructed a social platform, employing skills such as developing RESTful APIs with Java Spring Boot</li>
                         </ul>
                     </Col>
-                    <div className="divider"></div>
+                    <div className="resume-divider"></div>
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center">skills</Col>
-                    <Col md="2" className="d-flex align-items-center">
+                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center justify-content-center">
                         <p>08.2020 - 06.2021</p>
                     </Col>
                     <Col md="8" xs="12" >
@@ -90,12 +102,12 @@ function Resume() {
 
                         </ul>
                     </Col>
-                    <div className="divider"></div>
+                    <div className="resume-divider"></div>
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center">skills</Col>
-                    <Col md="2" className="d-flex align-items-center">
+                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center justify-content-center">
                         <p>02.2018 - 06.2019</p>
 
                     </Col>
@@ -109,12 +121,12 @@ function Resume() {
 
                         </ul>
                     </Col>
-                    <div className="divider"></div>
+                    <div className="resume-divider"></div>
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center">skills</Col>
-                    <Col md="2" className="d-flex align-items-center">
+                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col md="2" className="d-flex align-items-center justify-content-center">
                         <p> 06.2016 - 07.2017</p>
 
                     </Col>

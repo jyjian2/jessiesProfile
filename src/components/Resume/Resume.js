@@ -18,13 +18,22 @@ function Resume() {
                     </Col>
 
                     <Col className="d-flex align-items-center justify-content-center">
-                        <div direction="vertical" gap={2}>
-                            <Badge pill bg="primary">Primary</Badge>
-                            <Badge pill bg="info">Info</Badge>
-                            <Badge pill bg="light" text="dark">Light</Badge>
-                            <Badge pill bg="light" text="dark">Light</Badge>
-                            <Badge pill bg="light" text="dark">Light</Badge>
-                            <Badge pill bg="light" text="dark">Light</Badge>
+                        <div direction="vertical" gap={4}>
+                            <Badge pill bg="primary">HTML</Badge>
+                            <Badge pill bg="primary">CSS</Badge>
+                            <Badge pill bg="primary">JQuery</Badge>
+                            <Badge pill bg="primary">JavaScript</Badge>
+                            <Badge pill bg="primary">React.js</Badge>
+                            <Badge pill bg="primary">Node.js</Badge>
+                            <Badge pill bg="primary">RESTful</Badge>
+                            <Badge pill bg="primary">APIs</Badge>
+                            <Badge pill bg="info">Git</Badge>
+                            <Badge pill bg="info">Database</Badge>
+                            <Badge pill bg="info">PostgreSQL</Badge>
+                            <Badge pill bg="info">JSON</Badge>
+                            <Badge pill bg="light" text="dark">UI</Badge>
+                            <Badge pill bg="light" text="dark">Figma</Badge>
+                            <Badge pill bg="light" text="dark">Collaboration</Badge>
                         </div>
                     </Col>
 
@@ -41,11 +50,26 @@ function Resume() {
                     <div className="resume-divider"></div>
                 </Row>
                 <Row >
-
-                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
                     <Col md="2" className="d-flex align-items-center justify-content-center">
                         <p>06.2023 - 09.2023</p>
                     </Col>
+                    <Col className="d-flex align-items-center justify-content-center">
+                        <div direction="vertical" gap={4}>
+                            <Badge pill bg="primary">HTML</Badge>
+                            <Badge pill bg="primary">CSS</Badge>
+                            <Badge pill bg="primary">JQuery</Badge>
+                            <Badge pill bg="primary">JavaScript</Badge>
+                            <Badge pill bg="primary">React.js</Badge>
+                            <Badge pill bg="primary">Express.js</Badge>
+                            <Badge pill bg="primary">Bootstrap</Badge>
+                            <Badge pill bg="info">Git</Badge>
+                            <Badge pill bg="info">Database</Badge>
+                            <Badge pill bg="info">MongoDB</Badge>
+                            <Badge pill bg="info">JSON</Badge>
+                            <Badge pill bg="light" text="dark">UnitTest</Badge>
+                        </div>
+                    </Col>
+
                     <Col md="8" xs="12" >
                         <ul>
                             <p>ManageYourDay: A to-do list application</p>
@@ -59,9 +83,22 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col className="d-flex align-items-center justify-content-center">01.2023 - 04.2023</Col>
                     <Col md="2" className="d-flex align-items-center justify-content-center">
-                        <p>01.2023 - 04.2023</p>
+                    <div direction="vertical" gap={4}>
+                            <Badge pill bg="primary">HTML</Badge>
+                            <Badge pill bg="primary">CSS</Badge>
+                            <Badge pill bg="primary">JQuery</Badge>
+                            <Badge pill bg="primary">JavaScript</Badge>
+                            <Badge pill bg="primary">React.js</Badge>
+                            <Badge pill bg="primary">Express.js</Badge>
+                            <Badge pill bg="primary">Bootstrap</Badge>
+                            <Badge pill bg="info">Git</Badge>
+                            <Badge pill bg="info">Database</Badge>
+                            <Badge pill bg="info">MongoDB</Badge>
+                            <Badge pill bg="info">JSON</Badge>
+                            <Badge pill bg="light" text="dark">UnitTest</Badge>
+                        </div>
                     </Col>
                     <Col md="8" xs="12" >
                         <ul>
@@ -75,9 +112,18 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col className="d-flex align-items-center justify-content-center">09.2021 - 04.2022</Col>
                     <Col md="2" className="d-flex align-items-center justify-content-center">
-                        <p>09.2021 - 04.2022</p>
+                        <div direction="vertical" gap={4}>
+                            <Badge pill bg="primary">Java</Badge>
+                            <Badge pill bg="primary">Spring</Badge>
+                            <Badge pill bg="primary">JQuery</Badge>
+                            <Badge pill bg="primary">RESTful</Badge>
+                            <Badge pill bg="primary">APIs</Badge>
+                            <Badge pill bg="info">Git</Badge>
+                            <Badge pill bg="info">Database</Badge>
+                            <Badge pill bg="info">MySQL</Badge>
+                        </div>
                     </Col>
                     <Col md="8" xs="12" >
                         <ul>
@@ -89,9 +135,16 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col className="d-flex align-items-center justify-content-center">08.2020 - 06.2021</Col>
                     <Col md="2" className="d-flex align-items-center justify-content-center">
-                        <p>08.2020 - 06.2021</p>
+                        <div direction="vertical" gap={4}>
+                            <Badge pill bg="primary">C#</Badge>
+                            <Badge pill bg="primary">Unity</Badge>
+                            <Badge pill bg="info">GitLab</Badge>
+                            <Badge pill bg="light" text="dark">UI</Badge>
+                            <Badge pill bg="light" text="dark">UX</Badge>
+                            <Badge pill bg="light" text="dark">Collaboration</Badge>
+                        </div>
                     </Col>
                     <Col md="8" xs="12" >
                         <ul>
@@ -106,9 +159,19 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col className="d-flex align-items-center justify-content-center">02.2018 - 06.2019</Col>
                     <Col md="2" className="d-flex align-items-center justify-content-center">
-                        <p>02.2018 - 06.2019</p>
+                        <div direction="vertical" gap={4}>
+                            <Badge pill bg="primary">HTML</Badge>
+                            <Badge pill bg="primary">JQuery</Badge>
+                            <Badge pill bg="info">Database</Badge>
+                            <Badge pill bg="info">SQL Server</Badge>
+                            <Badge pill bg="light" text="dark">UI</Badge>
+                            <Badge pill bg="light" text="dark">UX</Badge>
+                            <Badge pill bg="light" text="dark">Collaboration</Badge>
+                            <Badge pill bg="light" text="dark">Agile</Badge>
+                            <Badge pill bg="light" text="dark">Scrum</Badge>
+                        </div>
 
                     </Col>
                     <Col md="8" xs="12" >
@@ -125,9 +188,12 @@ function Resume() {
                 </Row>
                 <Row >
 
-                    <Col className="d-flex align-items-center justify-content-center">skills</Col>
+                    <Col className="d-flex align-items-center justify-content-center">06.2016 - 07.2017</Col>
                     <Col md="2" className="d-flex align-items-center justify-content-center">
-                        <p> 06.2016 - 07.2017</p>
+                        <div direction="vertical" gap={4}>
+                            <Badge pill bg="light" text="dark">Communication</Badge>
+                            <Badge pill bg="light" text="dark">MS Excel</Badge>
+                        </div>
 
                     </Col>
                     <Col md="8" xs="12" >

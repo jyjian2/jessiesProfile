@@ -5,7 +5,7 @@ import Layout from './components/Layout/Layout.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Resume from './components/Resume/Resume.js'; 
 // import Projects from './components/Projects'; 
-// import Personal from './components/Personal'; 
+import Personal from './components/Personal/Personal.js'; 
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Route element={<Layout />}>
       <Route index element={<Home />} />
       <Route path="resume" element={<Resume />} />
+      <Route path="personal" element={<Personal />} />
       {/* <Route path="projects" element={<Projects />} />
       <Route path="personal" element={<Personal />} /> */}
       </Route>

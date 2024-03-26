@@ -33,9 +33,9 @@ function Personal() {
                     </Col>
 
                     <Col md="7" xs="12" className="d-flex align-items-center justify-content-center">
-                        <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                        
                             <CitySkyline />
-                        </div>
+                        
                     </Col>
                 </Row>
                 <div className="personal-divider"></div>

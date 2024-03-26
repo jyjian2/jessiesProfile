@@ -1,4 +1,4 @@
-* {
+.city-view {
     --building-color1: rgb(170, 128, 255);
     --building-color2: rgb(102, 204, 153);
     --building-color3: rgb(204, 102, 153);
@@ -16,7 +16,6 @@
     align-items: flex-end;
     justify-content: space-evenly;
     position: absolute;
-    bottom: 0;
   }
   
   .building-wrap {
@@ -214,7 +213,7 @@
   .fb4 {
     width: 8%;
     height: 45%;
-    position: relative;
+    /* position: relative; */
     left: 10%;
   }
   
@@ -242,7 +241,7 @@
   .fb5 {
     width: 10%;
     height: 33%;
-    position: relative;
+    /* position: relative; */
     right: 10%;
     background: repeating-linear-gradient(
         var(--building-color2),

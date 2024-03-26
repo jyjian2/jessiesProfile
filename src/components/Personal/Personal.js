@@ -2,8 +2,7 @@ import { Col, Row, Container, Stack } from 'react-bootstrap';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './PersonalStyles.css';
-import CityView from '/Users/keziah/Developer/jessies_profile/src/components/NewCityView/NewCityView.js';
-
+import CitySkyline from "../CitySkyline/CitySkyline";
 
 function Personal() {
     return (
@@ -33,8 +32,10 @@ function Personal() {
                         Augue luctus consectetuer rhoncus class tristique habitasse leo tortor natoque lorem netus eget elit arcu litora. Tellus leo laoreet commodo magnis nullam fringilla facilisis nec arcu nascetur vestibulum pretium faucibus rhoncus senectus torquent leo. Dui torquent purus integer.
                     </Col>
 
-                    <Col md="7" xs="12" >
-                        <CityView />
+                    <Col md="7" xs="12" className="d-flex align-items-center justify-content-center">
+                        <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                            <CitySkyline />
+                        </div>
                     </Col>
                 </Row>
                 <div className="personal-divider"></div>

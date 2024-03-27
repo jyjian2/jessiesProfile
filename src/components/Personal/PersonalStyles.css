@@ -4,3 +4,19 @@
     background-color: 	rgba(138, 133, 177, 0.3);
     margin: 10px 0;
 }
+
+.certificates {
+    height: 100%; /* Adjust as necessary */
+    width: 100%; /* Adjust as necessary */
+    overflow-y: auto; /* Enable vertical scrolling if necessary */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as necessary */
+    align-items: center;
+}
+
+.certificates img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    max-height: 100%; /* Ensure images don't exceed container height */
+    margin-bottom: 10px; /* Add some space between images */
+}

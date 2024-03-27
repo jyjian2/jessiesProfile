@@ -4,6 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './PersonalStyles.css';
 import CitySkyline from "../CitySkyline/CitySkyline";
 import GoldenGame from '../goldenGame/goldenGame';
+import udemy from "../../assets/udemy.png"
+import datastructure from "../../assets/dataStructure.png"
+import strings from "../../assets/strings.png"
+import toolbox from "../../assets/toolbox.png"
+import graphs from "../../assets/graphs.png"
+import VR from "../../assets/VR.png"
+import python from "../../assets/python.png"
 
 function Personal() {
     return (
@@ -19,8 +26,18 @@ function Personal() {
                     </Col>
 
                     <Col md="7" xs="12" >
-
-
+                        <Row style={{paddingBottom: "1%"}}>
+                            <Col><img src={udemy}></img></Col>
+                            <Col><img src={datastructure}></img></Col>
+                            <Col><img src={strings}></img></Col>
+                            <Col><img src={toolbox}></img></Col>
+                        </Row>
+                        <Row>
+                            <Col><img src={graphs}></img></Col>
+                            <Col><img src={VR}></img></Col>
+                            <Col><img src={python}></img></Col>
+                            <Col></Col>
+                        </Row>
                     </Col>
                 </Row>
                 <div className="personal-divider"></div>

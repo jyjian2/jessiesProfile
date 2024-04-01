@@ -14,7 +14,7 @@ const GoldenGame = () => {
         ['-25vh', '0vh', '-20vh', '0vh', '-18vh', '0vh', '-10vh', '0vh', '-5vh', '0vh'],
         ['-21vh', '0vh', '-17vh', '0vh', '-15vh', '0vh', '-12vh', '0vh', '-8vh', '0vh'],
         ['-18vh', '0vh', '-18vh', '0vh', '-15vh', '0vh', '-10vh', '0vh', '-6vh', '0vh'],
-        ['-23vh', '0vh', '-25vh', '0vh', '-18vh', '0vh', '-15vh', '0vh', '-10vh', '0vh'],
+        ['-23vh', '0vh', '-22=1vh', '0vh', '-18vh', '0vh', '-15vh', '0vh', '-10vh', '0vh'],
         ['-20vh', '0vh', '-20vh', '0vh', '-18vh', '0vh', '-15vh', '0vh', '-10vh', '0vh'],
     ]
     const transitionValues = {

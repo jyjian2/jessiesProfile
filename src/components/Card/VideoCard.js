@@ -13,13 +13,13 @@ const VideoCard = (props) => {
         </Card.Text>
       </Card.Body> */}
       <Card.Body>
-        <div className="embed-responsive embed-responsive-16by9">
+        <div >
           <iframe
             className="embed-responsive-item"
             src={video}
             title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            // frameborder="0"
+            // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             style={{ width: '100%', height: '100%' }}
           ></iframe>

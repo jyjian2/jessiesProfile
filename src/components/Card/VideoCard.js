@@ -6,13 +6,13 @@ const VideoCard = (props) => {
   
   return (
     <Card >
-      <Card.Body>
+      {/* <Card.Body>
         <Card.Title>Project Title</Card.Title>
         <Card.Text>
           Some description about the video.
         </Card.Text>
-      </Card.Body>
-      <Card.Footer>
+      </Card.Body> */}
+      <Card.Body>
         <div className="embed-responsive embed-responsive-16by9">
           <iframe
             className="embed-responsive-item"
@@ -24,7 +24,7 @@ const VideoCard = (props) => {
             style={{ width: '100%', height: '100%' }}
           ></iframe>
         </div>
-      </Card.Footer>
+      </Card.Body>
     </Card>
   );
 };

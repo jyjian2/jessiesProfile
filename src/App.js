@@ -4,7 +4,7 @@ import Home from './components/Home/Home.js';
 import Layout from './components/Layout/Layout.js'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Resume from './components/Resume/Resume.js'; 
-import Projects from './components/Projects'; 
+import Projects from './components/Projects/Projects.js'; 
 import Personal from './components/Personal/Personal.js'; 
 
 function App() {

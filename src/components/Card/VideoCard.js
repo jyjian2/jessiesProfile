@@ -6,25 +6,25 @@ const VideoCard = (props) => {
   
   return (
     <Card >
-      <Card.Body>
+      {/* <Card.Body>
         <Card.Title>Project Title</Card.Title>
         <Card.Text>
           Some description about the video.
         </Card.Text>
-      </Card.Body>
-      <Card.Footer>
-        <div className="embed-responsive embed-responsive-16by9">
+      </Card.Body> */}
+      <Card.Body>
+        <div >
           <iframe
             className="embed-responsive-item"
             src={video}
             title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            // frameborder="0"
+            // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             style={{ width: '100%', height: '100%' }}
           ></iframe>
         </div>
-      </Card.Footer>
+      </Card.Body>
     </Card>
   );
 };

@@ -19,7 +19,7 @@ function TopSection() {
                     <Row className="nav-bar">
                         <Col s="2"><a href="resume"><h4 className="nav-item">Resume</h4></a></Col>
                         <Col s="2"><a href="#/resume"><h4 className="nav-item">Projects</h4></a></Col>
-                        <Col s="2"><a href="#/resume"><h4 className="nav-item">Personal</h4></a></Col>
+                        <Col s="2"><a href="/personal"><h4 className="nav-item">Personal</h4></a></Col>
                     </Row>
 
                 </Col>

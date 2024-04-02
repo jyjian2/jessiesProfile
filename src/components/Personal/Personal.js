@@ -1,5 +1,82 @@
+import { Col, Row, Container, Stack } from 'react-bootstrap';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './PersonalStyles.css';
+import CitySkyline from "../CitySkyline/CitySkyline";
+import GoldenGame from '../goldenGame/goldenGame';
+import udemy from "../../assets/udemy.png"
+import datastructure from "../../assets/dataStructure.png"
+import strings from "../../assets/strings.png"
+import toolbox from "../../assets/toolbox.png"
+import graphs from "../../assets/graphs.png"
+import VR from "../../assets/VR.png"
+import python from "../../assets/python.png"
+
 function Personal() {
-    return <>This is a test</>
+    return (
+        <>
+            <div className="space"></div>
+
+            <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
+                <Row >
+                    <Col md="5" className="d-flex align-items-center justify-content-center">
+                        Nostra natoque ultricies augue. Justo lacinia molestie. Lacinia leo nonummy eget duis at mollis orci aliquet rhoncus nunc pretium. Tristique pede tempor dui lacus odio Facilisi ultrices sed morbi tempus dis cursus pulvinar laoreet cum consectetuer suscipit habitasse nibh montes ultrices.
+                        Proin lobortis class nisi natoque vitae, ridiculus auctor felis blandit fusce proin. Ac nullam euismod nam ipsum ante dignissim integer, cubilia.
+                        Augue luctus consectetuer rhoncus class tristique habitasse leo tortor natoque lorem netus eget elit arcu litora. Tellus leo laoreet commodo magnis nullam fringilla facilisis nec arcu nascetur vestibulum pretium faucibus rhoncus senectus torquent leo. Dui torquent purus integer.
+                    </Col>
+
+                    <Col md="7" xs="12" >
+                        <Row style={{paddingBottom: "1%"}}>
+                            <Col><img src={udemy}></img></Col>
+                            <Col><img src={datastructure}></img></Col>
+                            <Col><img src={strings}></img></Col>
+                            <Col><img src={toolbox}></img></Col>
+                        </Row>
+                        <Row>
+                            <Col><img src={graphs}></img></Col>
+                            <Col><img src={VR}></img></Col>
+                            <Col><img src={python}></img></Col>
+                            <Col></Col>
+                        </Row>
+                    </Col>
+                </Row>
+                <div className="personal-divider"></div>
+            </div>
+            <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
+                <Row >
+                    <Col md="5" className="d-flex align-items-center justify-content-center">
+                        Nostra natoque ultricies augue. Justo lacinia molestie. Lacinia leo nonummy eget duis at mollis orci aliquet rhoncus nunc pretium. Tristique pede tempor dui lacus odio Facilisi ultrices sed morbi tempus dis cursus pulvinar laoreet cum consectetuer suscipit habitasse nibh montes ultrices.
+                        Proin lobortis class nisi natoque vitae, ridiculus auctor felis blandit fusce proin. Ac nullam euismod nam ipsum ante dignissim integer, cubilia.
+                        Augue luctus consectetuer rhoncus class tristique habitasse leo tortor natoque lorem netus eget elit arcu litora. Tellus leo laoreet commodo magnis nullam fringilla facilisis nec arcu nascetur vestibulum pretium faucibus rhoncus senectus torquent leo. Dui torquent purus integer.
+                    </Col>
+
+                    <Col md="7" xs="12">
+                        <CitySkyline />
+                    </Col>
+                </Row>
+                <div className="personal-divider"></div>
+            </div>
+            <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
+                <Row >
+                    <Col md="5" className="d-flex align-items-center justify-content-center">
+                        Nostra natoque ultricies augue. Justo lacinia molestie. Lacinia leo nonummy eget duis at mollis orci aliquet rhoncus nunc pretium. Tristique pede tempor dui lacus odio Facilisi ultrices sed morbi tempus dis cursus pulvinar laoreet cum consectetuer suscipit habitasse nibh montes ultrices.
+                        Proin lobortis class nisi natoque vitae, ridiculus auctor felis blandit fusce proin. Ac nullam euismod nam ipsum ante dignissim integer, cubilia.
+                        Augue luctus consectetuer rhoncus class tristique habitasse leo tortor natoque lorem netus eget elit arcu litora. Tellus leo laoreet commodo magnis nullam fringilla facilisis nec arcu nascetur vestibulum pretium faucibus rhoncus senectus torquent leo. Dui torquent purus integer.
+                    </Col>
+
+                    <Col md="7" xs="12" >
+                        <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                            <GoldenGame />
+                        </div>
+
+
+                    </Col>
+                </Row>
+                <div className="personal-divider"></div>
+            </div>
+
+        </>
+    )
 }
 
 export default Personal;

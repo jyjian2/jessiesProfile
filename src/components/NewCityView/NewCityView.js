@@ -1,10 +1,9 @@
-import '/Users/keziah/Developer/jessies_profile/src/components/CitySkyline/CitySkyline.styles.css'
+import './NewCityViewStyles.css'
 
-function CitySkyline() {
-
+function NewCityView() {
     return (
         <>
-            <div className='cityView-wrap' style={{ position: 'relative', width: '100%', height: '100%' }}>
+            <div className='sky-wrap city-view' >
                 <div class="background-buildings sky">
                     <div></div>
                     <div></div>
@@ -77,9 +76,9 @@ function CitySkyline() {
                     <div></div>
                     <div></div>
                 </div>
+
             </div>
         </>
     )
 }
-
-export default CitySkyline;
+export default NewCityView;

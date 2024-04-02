@@ -10,12 +10,12 @@ const GoldenGame = () => {
     const [isDisplay, setIsDisplay] = useState('none')
 
     const bounceVariants = [
-        [-650, 0, -600, 0, -450, 0, -400, 0, -200, 0],
-        [-600, 0, -750, 0, -600, 0, -550, 0, -150, 0],
-        [-700, 0, -450, 0, -350, 0, -100, 0, -80, 0],
-        [-500, 0, -450, 0, -300, 0, -250, 0, -150, 0],
-        [-400, 0, -350, 0, -250, 0, -150, 0, -100, 0],
-        [-600, 0, -550, 0, -400, 0, -350, 0, -200, 0]
+        ['-15vh', '0vh', '-12vh', '0vh', '-10vh', '0vh', '-8vh', '0vh', '-6vh', '0vh'],
+        ['-22vh', '0vh', '-20vh', '0vh', '-18vh', '0vh', '-10vh', '0vh', '-5vh', '0vh'],
+        ['-21vh', '0vh', '-17vh', '0vh', '-15vh', '0vh', '-12vh', '0vh', '-8vh', '0vh'],
+        ['-18vh', '0vh', '-18vh', '0vh', '-15vh', '0vh', '-10vh', '0vh', '-6vh', '0vh'],
+        ['-21vh', '0vh', '-20vh', '0vh', '-18vh', '0vh', '-15vh', '0vh', '-10vh', '0vh'],
+        ['-20vh', '0vh', '-29vh', '0vh', '-18vh', '0vh', '-15vh', '0vh', '-10vh', '0vh'],
     ]
     const transitionValues = {
         duration: 40,
@@ -38,24 +38,37 @@ const GoldenGame = () => {
 
 
     return (
-        <div style={{ width: '100%', height: '100vh', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-evenly' }}>
-        <img src={jasperPhoto} style={{width:'30%',height: '30%', display : isDisplay, alignItems: 'center'}}/>
+        <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-evenly' }}>
+             <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'green', zIndex: -2 }}></div>
+            <img
+            src={jasperPhoto}
+            alt="Doggie"
+            style={{
+                position: 'absolute',
+                bottom: '0%',
+                width: 'auto', 
+                maxHeight: '100%', 
+                zIndex: -1, 
+            }}
+        />
             {bounceVariants.map((bv, idx) => (
                 <motion.img
-                    onClick={handleClickBall}
+                    // onClick={handleClickBall}
                     key={idx}
                     src={tennisBall}
                     animate={{ y: isBouncing ? bv : 0 }}
                     transition={{ y: transitionValues }}
                     style={{
-                        width: 50,
-                        height: 50,
+                        width: 40,
+                        height: 40,
                     }}
                 />
             ))}
+            
         </div>
     );
-
+  {/* <img src={jasperPhoto} style={{width:'30%',height: 'auto', alignItems: 'center'}}/>  */}
+        {/* display : isDisplay */}
 };
 
 

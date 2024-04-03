@@ -18,14 +18,14 @@ function Home() {
                     </Col>
                     <Col md="8" xs="12" className="intro">
                         <ul className="home-checklist">
-                            <li>Experienced web developer, specializing in JavaScript, HTML/CSS, and Git</li>
+                            <li>3+ years experience in web development, specializing in JavaScript, HTML/CSS, and Git</li>
                             <li>Skilled in building robust web applications using frameworks such as React.js and Node.js</li>
                             <li>Proficient in database management with PostgreSQL, MySQL, and MongoDB</li>
                             <li>Excels in creating intuitive UIs and optimizing performance for engaging UXs</li>
                             <li>Experienced in project management tools like JIRA and design tools like Figma</li>
                             <li>Proven record software development, including AI recipe management and e-commerce solutions</li>
                             <li>MS in Information Management from the University of Illinois at Urbana-Champaign</li>
-                            <li>US permanent resident. No sponsorship needed</li>
+                            <li>US Permanent Resident. No sponsorship needed</li>
                         </ul>
                     </Col>
                 </Row>

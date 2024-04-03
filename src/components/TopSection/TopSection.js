@@ -12,7 +12,7 @@ function TopSection() {
             <Row>
                 <Col xs="12" md="6">
                     <a href="/">
-                    <h1 className="name">JIA-YI JIAN</h1>
+                    <h1 className="name">Jessie Jian</h1>
                     <h4 className="title">Full Stack Engineer</h4>
                     </a>
                 </Col>

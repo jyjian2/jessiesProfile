@@ -106,3 +106,20 @@ img {
     justify-content: center;
     font-size: 1em;
 }
+
+.home-checklist li::before {
+    content: "\2713";
+    display: inline-block;
+    width: 1em;
+    color: green;
+  }
+
+  .home-checklist li {
+    margin-bottom: 1rem;
+    list-style: none;
+    font-size: 1.2rem;
+  }
+
+  .home-checklist {
+    padding: 0%;
+  }

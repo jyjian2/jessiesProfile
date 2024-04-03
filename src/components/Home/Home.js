@@ -12,7 +12,7 @@ function Home() {
 
             <div className="space"></div>
             <div className="home-wrap">
-                <Row className="picture-intro" style={{minHeight: "50vh"}}>
+                <Row className="picture-intro" style={{height: "60vh"}}>
                     <Col className="picture">
                         <img src={ProfileImg} style={{ borderRadius: '50%', width: '40vw', height: 'auto' }}></img>
                     </Col>

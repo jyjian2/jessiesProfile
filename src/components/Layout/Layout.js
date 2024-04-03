@@ -10,16 +10,16 @@ import './LayoutStyles.css';
 
 function Layout() {
   return (
-    <div>
+    <div className='container'>
       <header>
         <TopSection />
       </header>
-      <main>
+      <main className='main-content'>
           <LeftContact />
           <Outlet />
        
       </main>
-      <footer>
+      <footer className='footer'>
         <Footer />
       </footer>
     </div>

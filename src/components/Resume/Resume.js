@@ -226,7 +226,7 @@ function Resume() {
                     </Col>
                 </Row>
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
 
 

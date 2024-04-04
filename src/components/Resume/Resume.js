@@ -25,10 +25,10 @@ function Resume() {
                             <Badge pill bg="primary">JavaScript</Badge>
                             <Badge pill bg="primary">React.js</Badge>
                             <Badge pill bg="primary">Node.js</Badge>
+                            <Badge pill bg="primary">Express.js</Badge>
                             <Badge pill bg="primary">RESTful</Badge>
                             <Badge pill bg="primary">APIs</Badge>
-                            <Badge pill bg="info">Git</Badge>
-                            <Badge pill bg="info">Database</Badge>
+                            <Badge pill bg="info">Github</Badge>
                             <Badge pill bg="info">PostgreSQL</Badge>
                             <Badge pill bg="info">JSON</Badge>
                             <Badge pill bg="light" text="dark">UI</Badge>
@@ -57,13 +57,11 @@ function Resume() {
                         <div direction="vertical" gap={4}>
                             <Badge pill bg="primary">HTML</Badge>
                             <Badge pill bg="primary">CSS</Badge>
-                            <Badge pill bg="primary">JQuery</Badge>
                             <Badge pill bg="primary">JavaScript</Badge>
                             <Badge pill bg="primary">React.js</Badge>
                             <Badge pill bg="primary">Express.js</Badge>
                             <Badge pill bg="primary">Bootstrap</Badge>
-                            <Badge pill bg="info">Git</Badge>
-                            <Badge pill bg="info">Database</Badge>
+                            <Badge pill bg="info">Github</Badge>
                             <Badge pill bg="info">MongoDB</Badge>
                             <Badge pill bg="info">JSON</Badge>
                             <Badge pill bg="light" text="dark">UnitTest</Badge>
@@ -92,11 +90,10 @@ function Resume() {
                             <Badge pill bg="primary">React.js</Badge>
                             <Badge pill bg="primary">Express.js</Badge>
                             <Badge pill bg="primary">Bootstrap</Badge>
-                            <Badge pill bg="info">Git</Badge>
-                            <Badge pill bg="info">Database</Badge>
+                            <Badge pill bg="info">Github</Badge>
                             <Badge pill bg="info">MongoDB</Badge>
                             <Badge pill bg="info">JSON</Badge>
-                            <Badge pill bg="light" text="dark">UnitTest</Badge>
+                            <Badge pill bg="light" text="dark">Mobile-First Design</Badge>
                         </div>
                     </Col>
                     <Col md="8" xs="12" >
@@ -120,8 +117,10 @@ function Resume() {
                             <Badge pill bg="primary">RESTful</Badge>
                             <Badge pill bg="primary">APIs</Badge>
                             <Badge pill bg="info">Git</Badge>
-                            <Badge pill bg="info">Database</Badge>
                             <Badge pill bg="info">MySQL</Badge>
+                            <Badge pill bg="info">Oracle</Badge>
+                            <Badge pill bg="info">MongoDB</Badge>
+
                         </div>
                     </Col>
                     <Col md="8" xs="12" >
@@ -164,14 +163,15 @@ function Resume() {
                     <Col md="2" className="d-flex align-items-center justify-content-center">
                         <div direction="vertical" gap={4}>
                             <Badge pill bg="primary">HTML</Badge>
-                            <Badge pill bg="primary">JQuery</Badge>
-                            <Badge pill bg="info">Database</Badge>
                             <Badge pill bg="info">SQL Server</Badge>
+                            <Badge pill bg="info">Tableau</Badge>
                             <Badge pill bg="light" text="dark">UI</Badge>
                             <Badge pill bg="light" text="dark">UX</Badge>
-                            <Badge pill bg="light" text="dark">Collaboration</Badge>
+                            <Badge pill bg="light" text="dark">Leadership</Badge>
+                            <Badge pill bg="light" text="dark">JIRA</Badge>
                             <Badge pill bg="light" text="dark">Agile</Badge>
                             <Badge pill bg="light" text="dark">Scrum</Badge>
+                            <Badge pill bg="light" text="dark">Project Management</Badge>
                         </div>
 
                     </Col>

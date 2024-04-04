@@ -10,18 +10,18 @@ import './LayoutStyles.css';
 
 function Layout() {
   return (
-    <div className='container'>
+    <div>
       <header>
         <TopSection />
       </header>
-      <main className='main-content'>
+      <main>
           <LeftContact />
           <Outlet />
        
       </main>
-      <footer className='footer'>
+      {/* <footer className='footer'>
         <Footer />
-      </footer>
+      </footer> */}
     </div>
 
   );

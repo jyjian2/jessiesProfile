@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LeftContact from "../LeftContact/LeftContact";
+import Footer from "../Footer/Footer.js";
 
 function Home() {
     return (
@@ -23,12 +24,15 @@ function Home() {
                             <li>Proficient in database management with PostgreSQL, MySQL, and MongoDB</li>
                             <li>Excels in creating intuitive UIs and optimizing performance for engaging UXs</li>
                             <li>Experienced in project management tools like JIRA and design tools like Figma</li>
-                            <li>Proven record software development, including AI recipe management and e-commerce solutions</li>
+                            <li>Proven record in software development, including AI recipe management and e-commerce solutions</li>
                             <li>MS in Information Management from the University of Illinois at Urbana-Champaign</li>
                             <li>US Permanent Resident. No sponsorship needed</li>
                         </ul>
                     </Col>
                 </Row>
+            </div>
+            <div className="footer">
+                <Footer />
             </div>
 
 

@@ -12,6 +12,26 @@ function Resume() {
 
             <div className="space"></div>
             <div className="resume-wrap">
+
+                <Row>
+                    <Col md="2" className="d-flex align-items-center justify-content-center">08-2019 - 05-2021</Col>
+                    <Col></Col>
+                    <Col md="8" xs="12" style={{ textAlign: 'center' }}>
+                        <div style={{ display: 'block' }}>Master of Science in Information Management</div>
+                        <div style={{ display: 'block' }}>University of Illinois at Urbana Champaign Champaign</div>
+                        <div style={{ display: 'block' }}>GPA: 3.83/4.00</div>
+                    </Col>
+                </Row>
+                <div className="resume-divider"></div>
+                <Row>
+                    <Col md="2" className="d-flex align-items-center justify-content-center">05-2022 - 01-2023</Col>
+                    <Col></Col>
+                    <Col md="8" xs="12" style={{ textAlign: 'center' }}>
+                        <div>The Complete 2024 Web Development Bootcamp</div>
+                        <div>Udemy</div>
+                    </Col>
+                </Row>
+                <div className="resume-divider"></div>
                 <Row >
                     <Col md="2" className="d-flex align-items-center justify-content-center">
                         <p>09.2023 - 12.2023</p>

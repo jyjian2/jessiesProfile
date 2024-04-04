@@ -102,7 +102,7 @@ function Resume() {
                     <Col md="8" xs="12" >
                         <ul>
                             <p>Buy It for Life: An E-commerce Website</p>
-                            <li>Designed with a responsive and intuitive user interface to ensure a engaging user experience across various devices</li>
+                            <li>Designed with a Mobile-First Responsive Design to ensure an engaging user experience across various devices</li>
                             <li>Leveraged technologies such as HTML5, CSS3, Bootstrap, and React to efficiently manage client-side interactions</li>
                             <li>Incorporated RESTful APIs for executing data creation, retrieval, updating, and deletion from the MongoDB database</li>
                         </ul>

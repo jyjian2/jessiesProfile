@@ -178,10 +178,11 @@ function Resume() {
                     <Col md="8" xs="12" >
                         <ul>
                             <p>Business Analyst @Digital Forest Technologies, Taipei, Taiwan</p>
-                            <li>Managed projects that revamped a new B2B ticketing system, accommodating 200+ engineers and 100+ clients</li>
+                            <li>Led projects that revamped a new B2B ticketing system, accommodating 200+ engineers and 100+ clients</li>
                             <li>Developed Tableau business intelligence reports to help engineers track the resolution time of their issue tickets</li>
                             <li>Assisted the development team in SQL Server migration with SQL query writing and execution for data validation</li>
                             <li>Collaborated with cross-functional teams to resolve system errors, leading to a 50% increase in user satisfaction</li>
+
 
                         </ul>
                     </Col>

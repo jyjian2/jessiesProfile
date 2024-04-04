@@ -39,7 +39,7 @@ const GoldenGame = () => {
 
     return (
         <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-evenly' }}>
-             <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'green', zIndex: -2 }}></div>
+             <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor:'rgb(193, 225, 193, 0.6)', zIndex: -2 }}></div>
             <img
             src={jasperPhoto}
             alt="Doggie"

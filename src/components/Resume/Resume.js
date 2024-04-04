@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Badge from 'react-bootstrap/Badge';
-
+import Footer from "../Footer/Footer.js";
 
 function Resume() {
     return (
@@ -204,6 +204,8 @@ function Resume() {
                     </Col>
                 </Row>
             </div>
+           <Footer />
+           
 
 
 

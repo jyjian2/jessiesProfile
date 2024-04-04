@@ -19,9 +19,9 @@ function Layout() {
           <Outlet />
        
       </main>
-      <footer>
+      {/* <footer className='footer'>
         <Footer />
-      </footer>
+      </footer> */}
     </div>
 
   );

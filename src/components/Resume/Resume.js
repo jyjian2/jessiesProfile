@@ -40,9 +40,9 @@ function Resume() {
                     <Col md="8" xs="12" >
                         <ul>
                             <p>AppetAIzing: An AI-powered recipe summerization system</p>
-                            <li>Utilized Express and Node.js to create RESTful APIs facilitating for seamless frontend-backend communication</li>
-                            <li>Consumed a 3rd party AI API to summarize recipes from users' provide URL and enable users to edit further details</li>
-                            <li>Applied React.js, React Router, Custom Hook, class Components to create a clear user interface</li>
+                            <li>Utilized Express and Node.js to create RESTful APIs facilitating seamless frontend-backend communication</li>
+                            <li>Consumed a 3rd party AI API to summarize recipes from users' provided URL and enable users to edit further details</li>
+                            <li>Applied React.js, React Router, Custom Hook, Class Components to create a clear user interface</li>
                             <li>Designed database schema for a relational DBMS, e.g., PostgreSQL</li>
                             <li>Leveraged object storage such as AWS S3 to persist image files</li>
                         </ul>
@@ -85,7 +85,7 @@ function Resume() {
 
                     <Col className="d-flex align-items-center justify-content-center">01.2023 - 04.2023</Col>
                     <Col md="2" className="d-flex align-items-center justify-content-center">
-                    <div direction="vertical" gap={4}>
+                        <div direction="vertical" gap={4}>
                             <Badge pill bg="primary">HTML</Badge>
                             <Badge pill bg="primary">CSS</Badge>
                             <Badge pill bg="primary">JQuery</Badge>
@@ -204,8 +204,8 @@ function Resume() {
                     </Col>
                 </Row>
             </div>
-           <Footer />
-           
+            <Footer />
+
 
 
 

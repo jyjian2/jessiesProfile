@@ -73,10 +73,9 @@ function Resume() {
                     <Col md="8" xs="12" >
                         <ul>
                             <p>ManageYourDay: A to-do list application</p>
-                            <li>Used React and Express.js to implement end to end CRUD functionalities</li>
-                            <li>Thoroughly Unit tested its code for ensure high quality (using jest)</li>
-                            <li>Implemented user authentication and authorization to establish the legitimacy of user credentials and access
-                            </li>
+                            <li>Thoroughly unit tested its code for ensuring high quality</li>
+                            <li>Implemented user authentication and authorization to establish the legitimacy of user credentials and access</li>
+                            <li>Containerized the application and deployed to a cloud hosted platform</li>
                         </ul>
                     </Col>
                     <div className="resume-divider"></div>

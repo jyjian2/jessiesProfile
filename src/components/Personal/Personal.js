@@ -17,16 +17,17 @@ function Personal() {
         <>
             <div className="space"></div>
 
-            <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
-                <Row >
+            <div style={{ paddingLeft: "12vw", paddingRight: "3vw"}}>
+                <Row style={{minHeight: "25vh"}}>
                     <Col md="5" className="d-flex align-items-center justify-content-center">
-                        Nostra natoque ultricies augue. Justo lacinia molestie. Lacinia leo nonummy eget duis at mollis orci aliquet rhoncus nunc pretium. Tristique pede tempor dui lacus odio Facilisi ultrices sed morbi tempus dis cursus pulvinar laoreet cum consectetuer suscipit habitasse nibh montes ultrices.
-                        Proin lobortis class nisi natoque vitae, ridiculus auctor felis blandit fusce proin. Ac nullam euismod nam ipsum ante dignissim integer, cubilia.
-                        Augue luctus consectetuer rhoncus class tristique habitasse leo tortor natoque lorem netus eget elit arcu litora. Tellus leo laoreet commodo magnis nullam fringilla facilisis nec arcu nascetur vestibulum pretium faucibus rhoncus senectus torquent leo. Dui torquent purus integer.
+                        I hold certifications in both Web Development Bootcamp and Data Structures and Algorithms, validating my expertise in these essential software development areas.<br></br>
+                        The Web Development Bootcamp certification confirms my proficiency in modern web development technologies like HTML, CSS, JavaScript, and frameworks.<br></br>
+                        Likewise, the Data Structures and Algorithms certification demonstrates my ability to design efficient algorithms and implement data structures for problem-solving.<br></br>
+                        These certifications reflect my commitment to continuous learning and readiness to tackle diverse challenges in software engineering with confidence.<br></br>
                     </Col>
 
                     <Col md="7" xs="12" >
-                        <Row style={{paddingBottom: "1%"}}>
+                        <Row style={{ paddingBottom: "1%" }}>
                             <Col><img src={udemy}></img></Col>
                             <Col><img src={datastructure}></img></Col>
                             <Col><img src={strings}></img></Col>
@@ -42,12 +43,10 @@ function Personal() {
                 </Row>
                 <div className="personal-divider"></div>
             </div>
-            <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
-                <Row >
+            <div style={{ paddingLeft: "12vw", paddingRight: "3vw"}}>
+                <Row style={{minHeight: "25vh"}}>
                     <Col md="5" className="d-flex align-items-center justify-content-center">
-                        Nostra natoque ultricies augue. Justo lacinia molestie. Lacinia leo nonummy eget duis at mollis orci aliquet rhoncus nunc pretium. Tristique pede tempor dui lacus odio Facilisi ultrices sed morbi tempus dis cursus pulvinar laoreet cum consectetuer suscipit habitasse nibh montes ultrices.
-                        Proin lobortis class nisi natoque vitae, ridiculus auctor felis blandit fusce proin. Ac nullam euismod nam ipsum ante dignissim integer, cubilia.
-                        Augue luctus consectetuer rhoncus class tristique habitasse leo tortor natoque lorem netus eget elit arcu litora. Tellus leo laoreet commodo magnis nullam fringilla facilisis nec arcu nascetur vestibulum pretium faucibus rhoncus senectus torquent leo. Dui torquent purus integer.
+                        I reside in the vibrant SF Bay Area, where the abundance of sunshine and plethora of outdoor activities perfectly complement my lifestyle. The dynamic environment, filled with tech talents and innovation, energizes me and ignites my passion to be actively involved in this thriving tech community.
                     </Col>
 
                     <Col md="7" xs="12">
@@ -56,12 +55,10 @@ function Personal() {
                 </Row>
                 <div className="personal-divider"></div>
             </div>
-            <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
-                <Row >
+            <div style={{ paddingLeft: "12vw", paddingRight: "3vw"}}>
+                <Row style={{minHeight: "25vh"}}>
                     <Col md="5" className="d-flex align-items-center justify-content-center">
-                        Nostra natoque ultricies augue. Justo lacinia molestie. Lacinia leo nonummy eget duis at mollis orci aliquet rhoncus nunc pretium. Tristique pede tempor dui lacus odio Facilisi ultrices sed morbi tempus dis cursus pulvinar laoreet cum consectetuer suscipit habitasse nibh montes ultrices.
-                        Proin lobortis class nisi natoque vitae, ridiculus auctor felis blandit fusce proin. Ac nullam euismod nam ipsum ante dignissim integer, cubilia.
-                        Augue luctus consectetuer rhoncus class tristique habitasse leo tortor natoque lorem netus eget elit arcu litora. Tellus leo laoreet commodo magnis nullam fringilla facilisis nec arcu nascetur vestibulum pretium faucibus rhoncus senectus torquent leo. Dui torquent purus integer.
+                    Meet Jasper, the tennis ball enthusiast! This lively pup adores tennis balls more than anything else in the world, as evidenced by the adorable picture of him holding three balls in his mouth simultaneously. With boundless energy and an unwavering love for playtime, Jasper brings endless joy and excitement to every moment.
                     </Col>
 
                     <Col md="7" xs="12" >

@@ -15,7 +15,8 @@ function Projects() {
             <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
                 <Row style={{minHeight: "30vh"}}>
                     <Col md="5" className="d-flex align-items-center justify-content-center">
-                        Nostra natoque ultricies augue. Justo lacinia molestie. Lacinia leo nonummy eget duis at mollis orci aliquet rhoncus nunc pretium. Tristique pede tempor dui lacus odio Facilisi ultrices sed morbi tempus dis cursus pulvinar laoreet cum consectetuer suscipit habitasse nibh montes ultrices.
+                        
+AppetAIzing revolutionizes recipe management by integrating advanced technologies. Utilizing Express and Node.js for seamless frontend-backend communication, the system also leverages a third-party AI API for quick recipe summarization and editing. With an intuitive React.js interface and optimized PostgreSQL database schema, AppetAIzing ensures efficient data handling. Integration with object storage services like AWS S3 enhances multimedia content storage, culminating in a streamlined and user-friendly recipe management experience.
                     </Col>
 
                     <Col md="7" xs="12">
@@ -35,8 +36,7 @@ function Projects() {
             <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
                 <Row style={{minHeight: "30vh"}}>
                     <Col md="5" className="d-flex align-items-center justify-content-center">
-                        Nostra natoque ultricies augue. Justo lacinia molestie. Lacinia leo nonummy eget duis at mollis orci aliquet rhoncus nunc pretium. Tristique pede tempor dui lacus odio Facilisi ultrices sed morbi tempus dis cursus pulvinar laoreet cum consectetuer suscipit habitasse nibh montes ultrices.
-                    </Col>
+                    In this project, I collaborated with a team of developers to create immersive virtual reality (VR) games, leveraging tools like GitLab for version control, branch management, and code reviews. Working closely with other software developers and UI/UX specialists, I ensured seamless gameplay and interactivity, contributing to a cohesive user experience. Additionally, I played a key role in enhancing game functionality by revising algorithms in C#, implementing new features, and updating existing ones, effectively improving the overall quality and engagement of the VR games.                    </Col>
 
                     <Col md="7" xs="12" >
 

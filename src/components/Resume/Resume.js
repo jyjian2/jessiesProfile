@@ -128,6 +128,8 @@ function Resume() {
                         <ul>
                             <p>Software Developer @Beshton Software Inc., San Jose, CA, USA</p>
                             <li>Constructed a social platform, employing skills such as developing RESTful APIs with Java Spring Boot</li>
+                            <li>Design, develop, and maintain Java-based applications using Java EE, Spring Framework, Hibernate</li>
+                            <li>Integrated Java apps with relational databases (MySQL, PostgreSQL, Oracle) and/or NoSQL databases (MongoDB)</li>
                         </ul>
                     </Col>
                     <div className="resume-divider"></div>

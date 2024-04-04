@@ -17,8 +17,8 @@ function Personal() {
         <>
             <div className="space"></div>
 
-            <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
-                <Row >
+            <div style={{ paddingLeft: "12vw", paddingRight: "3vw"}}>
+                <Row style={{minHeight: "30vh"}}>
                     <Col md="5" className="d-flex align-items-center justify-content-center">
                         I hold certifications in both Web Development Bootcamp and Data Structures and Algorithms, validating my expertise in these essential software development areas.<br></br>
                         The Web Development Bootcamp certification confirms my proficiency in modern web development technologies like HTML, CSS, JavaScript, and frameworks.<br></br>
@@ -43,8 +43,8 @@ function Personal() {
                 </Row>
                 <div className="personal-divider"></div>
             </div>
-            <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
-                <Row >
+            <div style={{ paddingLeft: "12vw", paddingRight: "3vw"}}>
+                <Row style={{minHeight: "30vh"}}>
                     <Col md="5" className="d-flex align-items-center justify-content-center">
                         I reside in the vibrant SF Bay Area, where the abundance of sunshine and plethora of outdoor activities perfectly complement my lifestyle. The dynamic environment, filled with tech talents and innovation, energizes me and ignites my passion to be actively involved in this thriving tech community.
                     </Col>
@@ -55,8 +55,8 @@ function Personal() {
                 </Row>
                 <div className="personal-divider"></div>
             </div>
-            <div style={{ paddingLeft: "12vw", paddingRight: "3vw" }}>
-                <Row >
+            <div style={{ paddingLeft: "12vw", paddingRight: "3vw"}}>
+                <Row style={{minHeight: "30vh"}}>
                     <Col md="5" className="d-flex align-items-center justify-content-center">
                     Meet Jasper, the tennis ball enthusiast! This lively pup adores tennis balls more than anything else in the world, as evidenced by the adorable picture of him holding three balls in his mouth simultaneously. With boundless energy and an unwavering love for playtime, Jasper brings endless joy and excitement to every moment.
                     </Col>

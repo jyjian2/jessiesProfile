@@ -5,7 +5,7 @@ import emailIcon from "../../assets/email_icon.png"
 import linkedInIcon from "../../assets/linkedin_icon.png"
 import githubIcon from "../../assets/github_icon.png"
 import pdfIcon from "../../assets/pdf_icon.png"
-import resumeFile from "../../assets/JiaYiJian_Resume.pdf"
+import resumeFile from "../../assets/Resume_JessieJian.pdf"
 import "./LeftContactStyles.css"
 
 function LeftContact() {

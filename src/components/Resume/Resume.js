@@ -151,8 +151,8 @@ function Resume() {
                         <ul>
                             <p>Software Developer @University of Illinois at Urbana Champaign Virtual Reality Lab, Champaign, IL, USA </p>
                             <li>Developed immersive VR games with other developers, utilizing GitLab, branch management, and code reviews</li>
-                            <li>Collaborated with UI/UX specialists to create user-friendly games featuring seamless gameplay and interactivity</li>
-                            <li>Devised algorithms in C# to implement new features or update existing ones for VR games effectively</li>
+                            <li>Collaborated with other software developers and UI/UX specialists to ensure seamless gameplay and interactivity</li>
+                            <li>Revised algorithms in C# to implement new features or update existing ones for VR games effectively</li>
 
                         </ul>
                     </Col>
